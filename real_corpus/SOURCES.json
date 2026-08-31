@@ -1,0 +1,40 @@
+{
+  "source_repo": "github.com/tpaviot/pythonocc-demos (assets/models)",
+  "files": [
+    {
+      "name": "face_recognition_sample_part.stp",
+      "source_url": "https://raw.githubusercontent.com/tpaviot/pythonocc-demos/master/assets/models/face_recognition_sample_part.stp",
+      "note": "single machined part, planar+circular",
+      "bytes": 36763,
+      "sha256": "de7b8a513ae923cd11de2323e798ac084cc94f9aa7d7a2a8adab65fc592f8d0b"
+    },
+    {
+      "name": "as1_pe_203.stp",
+      "source_url": "https://raw.githubusercontent.com/tpaviot/pythonocc-demos/master/assets/models/as1_pe_203.stp",
+      "note": "AS1 rod/bracket assembly (AP203), 5 solids",
+      "bytes": 139752,
+      "sha256": "e14f7a52b3f0c53e36730c0f56654b01a17822f1b864dc6c42657223c54cafb6"
+    },
+    {
+      "name": "as1-oc-214.stp",
+      "source_url": "https://raw.githubusercontent.com/tpaviot/pythonocc-demos/master/assets/models/as1-oc-214.stp",
+      "note": "AS1 rod/bracket assembly (AP214), 5 solids",
+      "bytes": 441968,
+      "sha256": "038be659c54b16c9f3da8d7b2da7b63e3fd8879d3abe5b7826108336a7c0bae9"
+    },
+    {
+      "name": "11752.stp",
+      "source_url": "https://raw.githubusercontent.com/tpaviot/pythonocc-demos/master/assets/models/11752.stp",
+      "note": "multi-feature body, cylindrical+spline faces",
+      "bytes": 1579363,
+      "sha256": "c2748324a36018ff1d88cfb0a80946636f29431417b9f1052a0dfc13576b0d41"
+    },
+    {
+      "name": "splinecage.stp",
+      "source_url": "https://raw.githubusercontent.com/tpaviot/pythonocc-demos/master/assets/models/splinecage.stp",
+      "note": "spline SHEET body (no closed solid) -- negative control",
+      "bytes": 28886,
+      "sha256": "e6d3c25c4a3777de1cb71c4988fc1a5cbb9fb5587e4085273d1844a479ddfe33"
+    }
+  ]
+}

@@ -6,3 +6,5 @@ venv/
 .pytest_cache/
 # generated artifacts (keep code + manifests; regenerate corpus/reports)
 brep_sentinel_out/
+real_corpus/*.stp
+real_corpus/*.step

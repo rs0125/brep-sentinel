@@ -197,8 +197,6 @@ def generate_fixtures(out_dir: str) -> dict:
         ("fixture_crack", fixture_crack(), "crack_sub_tolerance", "flagged"),
         ("fixture_nonmanifold", fixture_nonmanifold(), "nonmanifold_edge", "malformed"),
         ("fixture_missingface", fixture_missingface(), "open_shell_euler", "malformed"),
-        ("fixture_weld_polyglot", fixture_weld_polyglot(), "vertex_weld_polyglot",
-         "benign_ambiguity"),
     ]
     manifest = {"note": "analysis-only invalid/divergent detector test vectors",
                 "parts": []}

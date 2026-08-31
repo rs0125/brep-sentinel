@@ -108,8 +108,23 @@ def check_orientation(desc: Descriptor) -> dict:
 
 
 def check_degeneracy(desc: Descriptor) -> dict:
-    zero_len = [e.id for e in desc.edges if e.length <= ZERO_LEN]
-    zero_area = [f.id for f in desc.faces if f.area <= ZERO_AREA]
+    # A closed edge (circle/ellipse/closed spline) legitimately has coincident
+    # endpoints -- only a *straight line* of zero length is degenerate.
+    edge_by_id = {e.id: e for e in desc.edges}
+    zero_len = [e.id for e in desc.edges
+                if e.length <= ZERO_LEN and e.curve_type == "line"]
+    # Face area is only meaningful for a planar face bounded entirely by straight
+    # edges (our Newell area is a planar proxy); skip curved surfaces/edges.
+    def area_meaningful(f):
+        if f.surface_type != "plane":
+            return False
+        for eid in f.outer_loop_edges:
+            e = edge_by_id.get(eid)
+            if e is None or e.curve_type != "line":
+                return False
+        return True
+    zero_area = [f.id for f in desc.faces
+                 if area_meaningful(f) and f.area <= ZERO_AREA]
     boundary_edges, nonmanifold = [], []
     for eid, uses in desc.edge_uses.items():
         n = len({u[0] for u in uses})

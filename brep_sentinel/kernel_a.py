@@ -26,7 +26,29 @@ HEAL_TOL = 1e-4
 
 
 def _heal(topo: RawTopo, log: list) -> RawTopo:
-    # 1. union-find merge of near-coincident vertices
+    """Gap-driven healing. A forgiving kernel only *repairs* defects; if the file
+    is already a closed manifold, healing is a no-op -- so clean files stay
+    convergent with the strict kernel. Healing engages only when the literal
+    topology has open (boundary) edges, non-manifold edges, or zero-length line
+    edges to fix."""
+    # literal incidence over distinct faces
+    inc: dict[int, set] = {eid: set() for eid in topo.edges}
+    for f in topo.faces:
+        for loop in [f.outer, *f.inners]:
+            for (eid, _o) in loop:
+                if eid in inc:
+                    inc[eid].add(f.id)
+    boundary = [eid for eid, fs in inc.items() if len(fs) < 2]
+    nonmanifold = [eid for eid, fs in inc.items() if len(fs) > 2]
+    zero_line = [eid for eid, e in topo.edges.items()
+                 if e["curve"] == "line"
+                 and topo.vertices.get(e["v"][0]) == topo.vertices.get(e["v"][1])]
+
+    if not boundary and not nonmanifold and not zero_line:
+        return topo   # already clean -> no healing -> converges with kernel B
+
+    # -- weld: merge coincident vertices, prioritising endpoints of boundary
+    #    edges (the crack) against any coincident vertex elsewhere. --
     ids = sorted(topo.vertices)
     parent = {v: v for v in ids}
 
@@ -43,48 +65,50 @@ def _heal(topo: RawTopo, log: list) -> RawTopo:
         lo, hi = (ra, rb) if ra < rb else (rb, ra)
         parent[hi] = lo
 
-    for i in range(len(ids)):
-        for j in range(i + 1, len(ids)):
-            a, b = ids[i], ids[j]
-            pa, pb = topo.vertices[a], topo.vertices[b]
-            if pa == pb or (abs(pa[0]-pb[0]) <= HEAL_TOL and
-                            abs(pa[1]-pb[1]) <= HEAL_TOL and
-                            abs(pa[2]-pb[2]) <= HEAL_TOL):
-                if find(a) != find(b):
-                    union(a, b)
-                    log.append(f"merged vertex #{max(a,b)} into #{min(a,b)} "
-                               f"(coincident within tol {HEAL_TOL})")
+    def coincident(a, b):
+        pa, pb = topo.vertices[a], topo.vertices[b]
+        return (abs(pa[0]-pb[0]) <= HEAL_TOL and abs(pa[1]-pb[1]) <= HEAL_TOL
+                and abs(pa[2]-pb[2]) <= HEAL_TOL)
+
+    bverts = set()
+    for eid in boundary:
+        bverts.update(topo.edges[eid]["v"])
+    for a in sorted(bverts):
+        for b in ids:
+            if a != b and find(a) != find(b) and coincident(a, b):
+                union(a, b)
+                log.append(f"welded vertex #{max(a,b)} into #{min(a,b)} to close "
+                           f"a gap (coincident within tol {HEAL_TOL})")
 
     rep = {v: find(v) for v in ids}
-    new_vertices = {}
+    new_vertices: dict = {}
     for v in ids:
         r = rep[v]
         if r not in new_vertices:
             new_vertices[r] = topo.vertices[r]
 
-    # 2. remap edges; drop zero-length; 3. stitch duplicate edges
-    canon: dict[tuple, int] = {}       # (min,max rep) -> canonical edge id
-    edge_remap: dict[int, int] = {}
-    new_edges: dict[int, dict] = {}
+    # remap edges; drop zero-length; stitch duplicates
+    canon: dict = {}
+    edge_remap: dict = {}
+    new_edges: dict = {}
     for eid in sorted(topo.edges):
         v1, v2 = topo.edges[eid]["v"]
         r1, r2 = rep.get(v1, v1), rep.get(v2, v2)
-        if r1 == r2:
-            log.append(f"dropped zero-length edge #{eid} (endpoints merged)")
+        if r1 == r2 and topo.edges[eid]["curve"] == "line":
+            log.append(f"dropped zero-length line edge #{eid} (endpoints welded)")
             edge_remap[eid] = None
             continue
-        key = (min(r1, r2), max(r1, r2))
+        key = (min(r1, r2), max(r1, r2), topo.edges[eid]["curve"])
         if key in canon:
             ceid = canon[key]
             edge_remap[eid] = ceid
             log.append(f"stitched duplicate edge #{eid} -> #{ceid} "
-                       f"(same healed endpoints)")
+                       f"(same welded endpoints)")
         else:
             canon[key] = eid
             edge_remap[eid] = eid
             new_edges[eid] = {"v": (r1, r2), "curve": topo.edges[eid]["curve"]}
 
-    # rebuild faces with remapped edges
     new_faces = []
     for f in topo.faces:
         nf = copy.copy(f)
@@ -93,9 +117,8 @@ def _heal(topo: RawTopo, log: list) -> RawTopo:
             out = []
             for (e, ori) in loop:
                 ne = edge_remap.get(e, e)
-                if ne is None:
-                    continue
-                out.append((ne, ori))
+                if ne is not None:
+                    out.append((ne, ori))
             return out
 
         nf.outer = remap_loop(f.outer)
@@ -106,18 +129,17 @@ def _heal(topo: RawTopo, log: list) -> RawTopo:
                      copy.deepcopy(topo.shells), list(topo.orphans),
                      list(topo.errors))
 
-    # 4. non-manifold repair: edge referenced by >2 faces -> keep 2
-    inc: dict[int, list] = {eid: [] for eid in healed.edges}
+    # non-manifold repair: edge referenced by >2 faces -> keep 2
+    inc2: dict = {eid: [] for eid in healed.edges}
     for f in healed.faces:
         for loop in [f.outer, *f.inners]:
             for (eid, _o) in loop:
-                if eid in inc and f.id not in inc[eid]:
-                    inc[eid].append(f.id)
-    for eid, fids in inc.items():
+                if eid in inc2 and f.id not in inc2[eid]:
+                    inc2[eid].append(f.id)
+    for eid, fids in inc2.items():
         if len(fids) > 2:
-            keep = set(fids[:2])
             drop = fids[2:]
-            log.append(f"non-manifold edge #{eid}: kept faces {sorted(keep)}, "
+            log.append(f"non-manifold edge #{eid}: kept faces {sorted(fids[:2])}, "
                        f"dropped {drop} (healed to manifold)")
             for f in healed.faces:
                 if f.id in drop:
