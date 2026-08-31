@@ -115,6 +115,11 @@ class Descriptor:
     healing_log: list[str] = field(default_factory=list)
     parse_errors: list[str] = field(default_factory=list)
 
+    # edge_id -> list of [face_id, orientation_bool] uses across all face loops.
+    # Carries orientation (dropped from FaceD) for the orientation-coherence
+    # invariant and for recomputing edge incidence.
+    edge_uses: dict = field(default_factory=dict)
+
     # ---- derived topology counts (Euler-Poincare inputs) ----
     @property
     def V(self) -> int:
@@ -170,4 +175,5 @@ class Descriptor:
             shells=[ShellD(**s) for s in d["shells"]],
             healing_log=d.get("healing_log", []),
             parse_errors=d.get("parse_errors", []),
+            edge_uses={int(k): v for k, v in d.get("edge_uses", {}).items()},
         )

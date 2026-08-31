@@ -212,6 +212,15 @@ def build_descriptor(topo: RawTopo, *, source_file: str, file_sha256: str,
                 if eid in inc and f.id not in inc[eid]:
                     inc[eid].append(f.id)
 
+    # per-edge uses (face_id, orientation) across all loops -- carries the
+    # orientation needed by the coherence invariant.
+    edge_uses: dict = {eid: [] for eid in topo.edges}
+    for f in sorted(topo.faces, key=lambda x: x.id):
+        for loop in [f.outer, *f.inners]:
+            for (eid, ori) in loop:
+                if eid in edge_uses:
+                    edge_uses[eid].append([f.id, bool(ori)])
+
     vertices = [VertexD(id=vid, xyz=[round(c, 9) for c in xyz])
                 for vid, xyz in sorted(topo.vertices.items())]
 
@@ -259,4 +268,5 @@ def build_descriptor(topo: RawTopo, *, source_file: str, file_sha256: str,
         vertices=vertices, edges=edges, faces=faces, shells=shells,
         healing_log=list(healing_log or []),
         parse_errors=list(topo.errors),
+        edge_uses=edge_uses,
     )
