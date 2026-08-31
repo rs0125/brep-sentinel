@@ -1,0 +1,3 @@
+# brep-sentinel runs on the Python standard library only (numpy optional).
+# pythonocc-core (OCCT) would be used as Kernel A when available (conda-only);
+# in its absence both kernels are independent standalone STEP parsers.
