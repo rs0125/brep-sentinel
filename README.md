@@ -35,6 +35,29 @@ sub-tolerance crack that a forgiving kernel silently heals is `FLAGGED`;
 non-manifold / missing-face inputs are `MALFORMED`; a vertex-weld polyglot lands
 in `BENIGN_AMBIGUITY` (SUSPECT — the residual-risk bucket).
 
+
+## Demo on real, third-party CAD models
+
+```bash
+python run.py ingest     # fetch real STEP files (provenance -> real_corpus/SOURCES.json)
+python run.py real       # baseline + infect each real solid + score -> REAL_REPORT.md
+```
+
+`infect.py` plants the detector's target anomaly classes into **real downloaded
+CAD files** — a sub-tolerance crack, a non-manifold fin, a deleted face, an
+enclosed void, and benign non-canonical edits. Every infection is **inert**: a
+topology-graph anomaly that makes the file *detectably* wrong, never a
+memory-corruption/RCE payload. On the 4 real solids ingested here:
+
+- **baseline: 4/4 CLEAN, 0 false positives** on real geometry (assemblies,
+  cylindrical + spline faces, 1000+ faces),
+- **crack -> FLAGGED**, **non-manifold / missing-face -> MALFORMED** (invariants),
+- **void -> CLEAN + geometric advisory** (invariant-invisible weakening),
+- benign edits -> CLEAN.
+
+A spline **sheet body** (no closed solid) is reported as a negative control, not
+an attack. See `brep_sentinel_out/REAL_REPORT.md`.
+
 ## Pipeline (each stage independently runnable)
 
 | stage | module | what it does |

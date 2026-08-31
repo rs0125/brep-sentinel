@@ -28,7 +28,8 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description="brep-sentinel pipeline")
     ap.add_argument("stage", choices=[
         "all", "corpus", "perturb", "fixtures", "kernel-a", "kernel-b",
-        "invariants", "adjudicate", "advisory", "evaluate", "report"])
+        "invariants", "adjudicate", "advisory", "evaluate", "report",
+        "ingest", "real"])
     ap.add_argument("file", nargs="?", help="STEP file for per-file stages")
     ap.add_argument("--out", default="brep_sentinel_out", help="output directory")
     args = ap.parse_args(argv)
@@ -58,6 +59,19 @@ def main(argv=None):
         from brep_sentinel.report import build_report
         build_report(out)
         print(f"[report]   {out}/REPORT.md")
+    if args.stage == "ingest":
+        from brep_sentinel.ingest import ingest
+        m = ingest()
+        print(f"[ingest]   {len(m['files'])} real files -> real_corpus/ "
+              f"(provenance in real_corpus/SOURCES.json)")
+    if args.stage in ("all", "real"):
+        from brep_sentinel.demo_real import run as run_real, build_real_report
+        rr = run_real(out_dir=out)
+        build_real_report(out)
+        sm = rr["summary"]
+        print(f"[real]     {sm['real_solids_tested']} real solids · "
+              f"baseline clean {sm['baseline_clean']}/{sm['real_solids_tested']} · "
+              f"FP {sm['baseline_false_positives']} · report -> {out}/REAL_REPORT.md")
 
     # per-file stages
     if args.stage in ("kernel-a", "kernel-b", "invariants", "adjudicate", "advisory"):
