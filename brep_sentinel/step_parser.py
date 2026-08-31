@@ -159,3 +159,56 @@ def referenced_ids(records: dict[int, Record]) -> set[int]:
     for r in records.values():
         walk(r.args)
     return used
+
+
+# ------------------------------------------------------------------------------
+# Serialization (records -> STEP text). Used by the perturbation/fixture stages
+# to emit modified copies.
+# ------------------------------------------------------------------------------
+def _fmt(v) -> str:
+    if isinstance(v, Ref):
+        return f"#{v.id}"
+    if isinstance(v, bool):
+        return ".T." if v else ".F."
+    if v is None:
+        return "$"
+    if isinstance(v, str):
+        if v == "*":
+            return "*"
+        return "'" + v.replace("'", "''") + "'"
+    if isinstance(v, tuple) and len(v) == 2 and v[0] == "ENUM":
+        return f".{v[1]}."
+    if isinstance(v, list):
+        return "(" + ",".join(_fmt(x) for x in v) + ")"
+    if isinstance(v, float):
+        if v == int(v):
+            return f"{v:.1f}"
+        return repr(v)
+    if isinstance(v, int):
+        return str(v)
+    return str(v)
+
+
+def serialize(records: dict[int, Record], name: str = "brep-sentinel",
+              extra_lines: list[str] | None = None) -> str:
+    body_lines = []
+    for rid in sorted(records):
+        r = records[rid]
+        args = ",".join(_fmt(a) for a in r.args)
+        body_lines.append(f"#{rid}={r.type}({args});")
+    if extra_lines:
+        body_lines.extend(extra_lines)
+    header = (
+        "ISO-10303-21;\n"
+        "HEADER;\n"
+        "FILE_DESCRIPTION((''),'2;1');\n"
+        f"FILE_NAME('{name}','2026-08-31T00:00:00',(''),(''),"
+        "'brep-sentinel-writer','brep-sentinel','');\n"
+        "FILE_SCHEMA(('AUTOMOTIVE_DESIGN'));\n"
+        "ENDSEC;\nDATA;\n"
+    )
+    return header + "\n".join(body_lines) + "\nENDSEC;\nEND-ISO-10303-21;\n"
+
+
+def max_id(records: dict[int, Record]) -> int:
+    return max(records) if records else 0
