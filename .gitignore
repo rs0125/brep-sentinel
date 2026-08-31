@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+# generated artifacts (keep code + manifests; regenerate corpus/reports)
+brep_sentinel_out/
