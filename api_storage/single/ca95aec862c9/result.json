@@ -1,0 +1,9710 @@
+{
+  "verdict": "clean",
+  "adjudication": {
+    "source_file": "/Users/yashitapuri/brep-sentinel/api_storage/single/ca95aec862c9/as1_pe_203.stp",
+    "verdict": "clean",
+    "convergent": true,
+    "a_valid": true,
+    "b_valid": true,
+    "count_diffs": {},
+    "structural_diffs": [],
+    "a_failures": [],
+    "b_failures": [],
+    "healing_ops": 0,
+    "reasoning": [
+      "Both kernels converged to identical topology counts, shell closure, and edge-incidence profile.",
+      "Both interpretations satisfy all four validity invariants.",
+      "-> CLEAN: no divergence to adjudicate; nothing to flag."
+    ]
+  },
+  "kernel_a": {
+    "source_file": "/Users/yashitapuri/brep-sentinel/api_storage/single/ca95aec862c9/as1_pe_203.stp",
+    "file_sha256": "be1254354f6929a08ce1c8049d4a0a2f4406da4ea283fc4247d009c81976641c",
+    "kernel_name": "kernel_a_tolerant",
+    "kernel_version": "tolerant-healing/1.0 (tol=1e-4)",
+    "healing_enabled": true,
+    "schema_version": "descriptor/1.0",
+    "vertices": [
+      {
+        "id": 379,
+        "xyz": [
+          40.0,
+          -20.0,
+          -75.0
+        ]
+      },
+      {
+        "id": 380,
+        "xyz": [
+          40.0,
+          0.0,
+          -75.0
+        ]
+      },
+      {
+        "id": 382,
+        "xyz": [
+          -140.0,
+          0.0,
+          -75.0
+        ]
+      },
+      {
+        "id": 384,
+        "xyz": [
+          -140.0,
+          -20.0,
+          -75.0
+        ]
+      },
+      {
+        "id": 387,
+        "xyz": [
+          40.0,
+          -20.0,
+          75.0
+        ]
+      },
+      {
+        "id": 388,
+        "xyz": [
+          40.0,
+          0.0,
+          75.0
+        ]
+      },
+      {
+        "id": 390,
+        "xyz": [
+          -140.0,
+          0.0,
+          75.0
+        ]
+      },
+      {
+        "id": 392,
+        "xyz": [
+          -140.0,
+          -20.0,
+          75.0
+        ]
+      },
+      {
+        "id": 395,
+        "xyz": [
+          20.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 396,
+        "xyz": [
+          10.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 399,
+        "xyz": [
+          20.0,
+          -20.0,
+          0.0
+        ]
+      },
+      {
+        "id": 400,
+        "xyz": [
+          10.0,
+          -20.0,
+          0.0
+        ]
+      },
+      {
+        "id": 403,
+        "xyz": [
+          -2.5,
+          0.0,
+          12.990381057
+        ]
+      },
+      {
+        "id": 404,
+        "xyz": [
+          -12.5,
+          0.0,
+          12.990381057
+        ]
+      },
+      {
+        "id": 407,
+        "xyz": [
+          -2.5,
+          -20.0,
+          12.990381057
+        ]
+      },
+      {
+        "id": 408,
+        "xyz": [
+          -12.5,
+          -20.0,
+          12.990381057
+        ]
+      },
+      {
+        "id": 411,
+        "xyz": [
+          -2.5,
+          0.0,
+          -12.990381057
+        ]
+      },
+      {
+        "id": 412,
+        "xyz": [
+          -12.5,
+          0.0,
+          -12.990381057
+        ]
+      },
+      {
+        "id": 415,
+        "xyz": [
+          -2.5,
+          -20.0,
+          -12.990381057
+        ]
+      },
+      {
+        "id": 416,
+        "xyz": [
+          -12.5,
+          -20.0,
+          -12.990381057
+        ]
+      },
+      {
+        "id": 419,
+        "xyz": [
+          -120.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 420,
+        "xyz": [
+          -110.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 423,
+        "xyz": [
+          -120.0,
+          -20.0,
+          0.0
+        ]
+      },
+      {
+        "id": 424,
+        "xyz": [
+          -110.0,
+          -20.0,
+          0.0
+        ]
+      },
+      {
+        "id": 427,
+        "xyz": [
+          -97.5,
+          0.0,
+          12.990381057
+        ]
+      },
+      {
+        "id": 428,
+        "xyz": [
+          -87.5,
+          0.0,
+          12.990381057
+        ]
+      },
+      {
+        "id": 431,
+        "xyz": [
+          -97.5,
+          -20.0,
+          12.990381057
+        ]
+      },
+      {
+        "id": 432,
+        "xyz": [
+          -87.5,
+          -20.0,
+          12.990381057
+        ]
+      },
+      {
+        "id": 435,
+        "xyz": [
+          -97.5,
+          0.0,
+          -12.990381057
+        ]
+      },
+      {
+        "id": 436,
+        "xyz": [
+          -87.5,
+          0.0,
+          -12.990381057
+        ]
+      },
+      {
+        "id": 439,
+        "xyz": [
+          -97.5,
+          -20.0,
+          -12.990381057
+        ]
+      },
+      {
+        "id": 440,
+        "xyz": [
+          -87.5,
+          -20.0,
+          -12.990381057
+        ]
+      },
+      {
+        "id": 1219,
+        "xyz": [
+          -50.0,
+          0.0,
+          50.0
+        ]
+      },
+      {
+        "id": 1220,
+        "xyz": [
+          -50.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1222,
+        "xyz": [
+          -50.0,
+          60.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1224,
+        "xyz": [
+          -50.0,
+          60.0,
+          10.0
+        ]
+      },
+      {
+        "id": 1226,
+        "xyz": [
+          -50.0,
+          10.0,
+          10.0
+        ]
+      },
+      {
+        "id": 1228,
+        "xyz": [
+          -50.0,
+          10.0,
+          50.0
+        ]
+      },
+      {
+        "id": 1231,
+        "xyz": [
+          50.0,
+          0.0,
+          50.0
+        ]
+      },
+      {
+        "id": 1232,
+        "xyz": [
+          50.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1234,
+        "xyz": [
+          50.0,
+          60.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1236,
+        "xyz": [
+          50.0,
+          60.0,
+          10.0
+        ]
+      },
+      {
+        "id": 1238,
+        "xyz": [
+          50.0,
+          10.0,
+          10.0
+        ]
+      },
+      {
+        "id": 1240,
+        "xyz": [
+          50.0,
+          10.0,
+          50.0
+        ]
+      },
+      {
+        "id": 1243,
+        "xyz": [
+          5.0,
+          0.0,
+          20.0
+        ]
+      },
+      {
+        "id": 1244,
+        "xyz": [
+          -5.0,
+          0.0,
+          20.0
+        ]
+      },
+      {
+        "id": 1247,
+        "xyz": [
+          5.0,
+          10.0,
+          20.0
+        ]
+      },
+      {
+        "id": 1248,
+        "xyz": [
+          -5.0,
+          10.0,
+          20.0
+        ]
+      },
+      {
+        "id": 1251,
+        "xyz": [
+          -7.990381057,
+          0.0,
+          42.5
+        ]
+      },
+      {
+        "id": 1252,
+        "xyz": [
+          -17.990381057,
+          0.0,
+          42.5
+        ]
+      },
+      {
+        "id": 1255,
+        "xyz": [
+          -7.990381057,
+          10.0,
+          42.5
+        ]
+      },
+      {
+        "id": 1256,
+        "xyz": [
+          -17.990381057,
+          10.0,
+          42.5
+        ]
+      },
+      {
+        "id": 1259,
+        "xyz": [
+          17.990381057,
+          0.0,
+          42.5
+        ]
+      },
+      {
+        "id": 1260,
+        "xyz": [
+          7.990381057,
+          0.0,
+          42.5
+        ]
+      },
+      {
+        "id": 1263,
+        "xyz": [
+          17.990381057,
+          10.0,
+          42.5
+        ]
+      },
+      {
+        "id": 1264,
+        "xyz": [
+          7.990381057,
+          10.0,
+          42.5
+        ]
+      },
+      {
+        "id": 1267,
+        "xyz": [
+          -5.0,
+          40.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1268,
+        "xyz": [
+          5.0,
+          40.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1271,
+        "xyz": [
+          -5.0,
+          40.0,
+          10.0
+        ]
+      },
+      {
+        "id": 1272,
+        "xyz": [
+          5.0,
+          40.0,
+          10.0
+        ]
+      },
+      {
+        "id": 1777,
+        "xyz": [
+          -5.0,
+          37.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1778,
+        "xyz": [
+          -5.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1781,
+        "xyz": [
+          -7.5,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1782,
+        "xyz": [
+          -7.5,
+          -3.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1785,
+        "xyz": [
+          5.0,
+          37.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1786,
+        "xyz": [
+          5.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1789,
+        "xyz": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1790,
+        "xyz": [
+          7.5,
+          -3.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2118,
+        "xyz": [
+          10.0,
+          -3.0,
+          -7.5
+        ]
+      },
+      {
+        "id": 2119,
+        "xyz": [
+          10.0,
+          0.0,
+          -7.5
+        ]
+      },
+      {
+        "id": 2121,
+        "xyz": [
+          -10.0,
+          0.0,
+          -7.5
+        ]
+      },
+      {
+        "id": 2123,
+        "xyz": [
+          -10.0,
+          -3.0,
+          -7.5
+        ]
+      },
+      {
+        "id": 2126,
+        "xyz": [
+          10.0,
+          -3.0,
+          7.5
+        ]
+      },
+      {
+        "id": 2127,
+        "xyz": [
+          10.0,
+          0.0,
+          7.5
+        ]
+      },
+      {
+        "id": 2129,
+        "xyz": [
+          -10.0,
+          0.0,
+          7.5
+        ]
+      },
+      {
+        "id": 2131,
+        "xyz": [
+          -10.0,
+          -3.0,
+          7.5
+        ]
+      },
+      {
+        "id": 2134,
+        "xyz": [
+          5.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2135,
+        "xyz": [
+          -5.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2138,
+        "xyz": [
+          5.0,
+          -3.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2139,
+        "xyz": [
+          -5.0,
+          -3.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2583,
+        "xyz": [
+          0.0,
+          0.0,
+          5.0
+        ]
+      },
+      {
+        "id": 2584,
+        "xyz": [
+          0.0,
+          0.0,
+          -5.0
+        ]
+      },
+      {
+        "id": 2587,
+        "xyz": [
+          200.0,
+          0.0,
+          5.0
+        ]
+      },
+      {
+        "id": 2588,
+        "xyz": [
+          200.0,
+          0.0,
+          -5.0
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": 446,
+        "curve_type": "line",
+        "vertex_ids": [
+          379,
+          380
+        ],
+        "length": 20.0,
+        "face_ids": [
+          456,
+          471
+        ]
+      },
+      {
+        "id": 448,
+        "curve_type": "line",
+        "vertex_ids": [
+          380,
+          382
+        ],
+        "length": 180.0,
+        "face_ids": [
+          456,
+          585
+        ]
+      },
+      {
+        "id": 450,
+        "curve_type": "line",
+        "vertex_ids": [
+          382,
+          384
+        ],
+        "length": 20.0,
+        "face_ids": [
+          456,
+          700
+        ]
+      },
+      {
+        "id": 452,
+        "curve_type": "line",
+        "vertex_ids": [
+          384,
+          379
+        ],
+        "length": 180.0,
+        "face_ids": [
+          456,
+          521
+        ]
+      },
+      {
+        "id": 463,
+        "curve_type": "line",
+        "vertex_ids": [
+          379,
+          387
+        ],
+        "length": 150.0,
+        "face_ids": [
+          471,
+          521
+        ]
+      },
+      {
+        "id": 465,
+        "curve_type": "line",
+        "vertex_ids": [
+          387,
+          388
+        ],
+        "length": 20.0,
+        "face_ids": [
+          471,
+          688
+        ]
+      },
+      {
+        "id": 467,
+        "curve_type": "line",
+        "vertex_ids": [
+          380,
+          388
+        ],
+        "length": 150.0,
+        "face_ids": [
+          471,
+          585
+        ]
+      },
+      {
+        "id": 478,
+        "curve_type": "line",
+        "vertex_ids": [
+          384,
+          392
+        ],
+        "length": 150.0,
+        "face_ids": [
+          521,
+          700
+        ]
+      },
+      {
+        "id": 480,
+        "curve_type": "line",
+        "vertex_ids": [
+          392,
+          387
+        ],
+        "length": 180.0,
+        "face_ids": [
+          521,
+          688
+        ]
+      },
+      {
+        "id": 485,
+        "curve_type": "circle",
+        "vertex_ids": [
+          439,
+          440
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          536
+        ]
+      },
+      {
+        "id": 487,
+        "curve_type": "circle",
+        "vertex_ids": [
+          440,
+          439
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          597
+        ]
+      },
+      {
+        "id": 491,
+        "curve_type": "circle",
+        "vertex_ids": [
+          431,
+          432
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          611
+        ]
+      },
+      {
+        "id": 493,
+        "curve_type": "circle",
+        "vertex_ids": [
+          432,
+          431
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          623
+        ]
+      },
+      {
+        "id": 497,
+        "curve_type": "circle",
+        "vertex_ids": [
+          415,
+          416
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          637
+        ]
+      },
+      {
+        "id": 499,
+        "curve_type": "circle",
+        "vertex_ids": [
+          416,
+          415
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          649
+        ]
+      },
+      {
+        "id": 503,
+        "curve_type": "circle",
+        "vertex_ids": [
+          407,
+          408
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          663
+        ]
+      },
+      {
+        "id": 505,
+        "curve_type": "circle",
+        "vertex_ids": [
+          408,
+          407
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          675
+        ]
+      },
+      {
+        "id": 509,
+        "curve_type": "circle",
+        "vertex_ids": [
+          399,
+          400
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          714
+        ]
+      },
+      {
+        "id": 511,
+        "curve_type": "circle",
+        "vertex_ids": [
+          400,
+          399
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          726
+        ]
+      },
+      {
+        "id": 515,
+        "curve_type": "circle",
+        "vertex_ids": [
+          423,
+          424
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          740
+        ]
+      },
+      {
+        "id": 517,
+        "curve_type": "circle",
+        "vertex_ids": [
+          424,
+          423
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          752
+        ]
+      },
+      {
+        "id": 527,
+        "curve_type": "circle",
+        "vertex_ids": [
+          435,
+          436
+        ],
+        "length": 10.0,
+        "face_ids": [
+          536,
+          585
+        ]
+      },
+      {
+        "id": 529,
+        "curve_type": "line",
+        "vertex_ids": [
+          435,
+          439
+        ],
+        "length": 20.0,
+        "face_ids": [
+          536,
+          597
+        ]
+      },
+      {
+        "id": 532,
+        "curve_type": "line",
+        "vertex_ids": [
+          436,
+          440
+        ],
+        "length": 20.0,
+        "face_ids": [
+          536,
+          597
+        ]
+      },
+      {
+        "id": 544,
+        "curve_type": "line",
+        "vertex_ids": [
+          388,
+          390
+        ],
+        "length": 180.0,
+        "face_ids": [
+          585,
+          688
+        ]
+      },
+      {
+        "id": 546,
+        "curve_type": "line",
+        "vertex_ids": [
+          382,
+          390
+        ],
+        "length": 150.0,
+        "face_ids": [
+          585,
+          700
+        ]
+      },
+      {
+        "id": 551,
+        "curve_type": "circle",
+        "vertex_ids": [
+          436,
+          435
+        ],
+        "length": 10.0,
+        "face_ids": [
+          585,
+          597
+        ]
+      },
+      {
+        "id": 555,
+        "curve_type": "circle",
+        "vertex_ids": [
+          427,
+          428
+        ],
+        "length": 10.0,
+        "face_ids": [
+          585,
+          611
+        ]
+      },
+      {
+        "id": 557,
+        "curve_type": "circle",
+        "vertex_ids": [
+          428,
+          427
+        ],
+        "length": 10.0,
+        "face_ids": [
+          585,
+          623
+        ]
+      },
+      {
+        "id": 561,
+        "curve_type": "circle",
+        "vertex_ids": [
+          411,
+          412
+        ],
+        "length": 10.0,
+        "face_ids": [
+          585,
+          637
+        ]
+      },
+      {
+        "id": 563,
+        "curve_type": "circle",
+        "vertex_ids": [
+          412,
+          411
+        ],
+        "length": 10.0,
+        "face_ids": [
+          585,
+          649
+        ]
+      },
+      {
+        "id": 567,
+        "curve_type": "circle",
+        "vertex_ids": [
+          403,
+          404
+        ],
+        "length": 10.0,
+        "face_ids": [
+          585,
+          663
+        ]
+      },
+      {
+        "id": 569,
+        "curve_type": "circle",
+        "vertex_ids": [
+          404,
+          403
+        ],
+        "length": 10.0,
+        "face_ids": [
+          585,
+          675
+        ]
+      },
+      {
+        "id": 573,
+        "curve_type": "circle",
+        "vertex_ids": [
+          395,
+          396
+        ],
+        "length": 10.0,
+        "face_ids": [
+          585,
+          714
+        ]
+      },
+      {
+        "id": 575,
+        "curve_type": "circle",
+        "vertex_ids": [
+          396,
+          395
+        ],
+        "length": 10.0,
+        "face_ids": [
+          585,
+          726
+        ]
+      },
+      {
+        "id": 579,
+        "curve_type": "circle",
+        "vertex_ids": [
+          419,
+          420
+        ],
+        "length": 10.0,
+        "face_ids": [
+          585,
+          740
+        ]
+      },
+      {
+        "id": 581,
+        "curve_type": "circle",
+        "vertex_ids": [
+          420,
+          419
+        ],
+        "length": 10.0,
+        "face_ids": [
+          585,
+          752
+        ]
+      },
+      {
+        "id": 604,
+        "curve_type": "line",
+        "vertex_ids": [
+          427,
+          431
+        ],
+        "length": 20.0,
+        "face_ids": [
+          611,
+          623
+        ]
+      },
+      {
+        "id": 607,
+        "curve_type": "line",
+        "vertex_ids": [
+          428,
+          432
+        ],
+        "length": 20.0,
+        "face_ids": [
+          611,
+          623
+        ]
+      },
+      {
+        "id": 630,
+        "curve_type": "line",
+        "vertex_ids": [
+          412,
+          416
+        ],
+        "length": 20.0,
+        "face_ids": [
+          637,
+          649
+        ]
+      },
+      {
+        "id": 633,
+        "curve_type": "line",
+        "vertex_ids": [
+          411,
+          415
+        ],
+        "length": 20.0,
+        "face_ids": [
+          637,
+          649
+        ]
+      },
+      {
+        "id": 656,
+        "curve_type": "line",
+        "vertex_ids": [
+          404,
+          408
+        ],
+        "length": 20.0,
+        "face_ids": [
+          663,
+          675
+        ]
+      },
+      {
+        "id": 659,
+        "curve_type": "line",
+        "vertex_ids": [
+          403,
+          407
+        ],
+        "length": 20.0,
+        "face_ids": [
+          663,
+          675
+        ]
+      },
+      {
+        "id": 683,
+        "curve_type": "line",
+        "vertex_ids": [
+          390,
+          392
+        ],
+        "length": 20.0,
+        "face_ids": [
+          688,
+          700
+        ]
+      },
+      {
+        "id": 707,
+        "curve_type": "line",
+        "vertex_ids": [
+          396,
+          400
+        ],
+        "length": 20.0,
+        "face_ids": [
+          714,
+          726
+        ]
+      },
+      {
+        "id": 710,
+        "curve_type": "line",
+        "vertex_ids": [
+          395,
+          399
+        ],
+        "length": 20.0,
+        "face_ids": [
+          714,
+          726
+        ]
+      },
+      {
+        "id": 733,
+        "curve_type": "line",
+        "vertex_ids": [
+          419,
+          423
+        ],
+        "length": 20.0,
+        "face_ids": [
+          740,
+          752
+        ]
+      },
+      {
+        "id": 736,
+        "curve_type": "line",
+        "vertex_ids": [
+          420,
+          424
+        ],
+        "length": 20.0,
+        "face_ids": [
+          740,
+          752
+        ]
+      },
+      {
+        "id": 1278,
+        "curve_type": "line",
+        "vertex_ids": [
+          1219,
+          1220
+        ],
+        "length": 50.0,
+        "face_ids": [
+          1292,
+          1325
+        ]
+      },
+      {
+        "id": 1280,
+        "curve_type": "line",
+        "vertex_ids": [
+          1220,
+          1222
+        ],
+        "length": 60.0,
+        "face_ids": [
+          1292,
+          1463
+        ]
+      },
+      {
+        "id": 1282,
+        "curve_type": "line",
+        "vertex_ids": [
+          1222,
+          1224
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1292,
+          1444
+        ]
+      },
+      {
+        "id": 1284,
+        "curve_type": "line",
+        "vertex_ids": [
+          1224,
+          1226
+        ],
+        "length": 50.0,
+        "face_ids": [
+          1292,
+          1430
+        ]
+      },
+      {
+        "id": 1286,
+        "curve_type": "line",
+        "vertex_ids": [
+          1226,
+          1228
+        ],
+        "length": 40.0,
+        "face_ids": [
+          1292,
+          1384
+        ]
+      },
+      {
+        "id": 1288,
+        "curve_type": "line",
+        "vertex_ids": [
+          1228,
+          1219
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1292,
+          1490
+        ]
+      },
+      {
+        "id": 1299,
+        "curve_type": "line",
+        "vertex_ids": [
+          1219,
+          1231
+        ],
+        "length": 100.0,
+        "face_ids": [
+          1325,
+          1490
+        ]
+      },
+      {
+        "id": 1301,
+        "curve_type": "line",
+        "vertex_ids": [
+          1231,
+          1232
+        ],
+        "length": 50.0,
+        "face_ids": [
+          1325,
+          1478
+        ]
+      },
+      {
+        "id": 1303,
+        "curve_type": "line",
+        "vertex_ids": [
+          1220,
+          1232
+        ],
+        "length": 100.0,
+        "face_ids": [
+          1325,
+          1463
+        ]
+      },
+      {
+        "id": 1307,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1259,
+          1260
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1325,
+          1340
+        ]
+      },
+      {
+        "id": 1309,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1260,
+          1259
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1325,
+          1353
+        ]
+      },
+      {
+        "id": 1313,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1251,
+          1252
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1325,
+          1398
+        ]
+      },
+      {
+        "id": 1315,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1252,
+          1251
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1325,
+          1410
+        ]
+      },
+      {
+        "id": 1319,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1243,
+          1244
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1325,
+          1530
+        ]
+      },
+      {
+        "id": 1321,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1244,
+          1243
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1325,
+          1542
+        ]
+      },
+      {
+        "id": 1332,
+        "curve_type": "line",
+        "vertex_ids": [
+          1263,
+          1259
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1340,
+          1353
+        ]
+      },
+      {
+        "id": 1334,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1263,
+          1264
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1340,
+          1384
+        ]
+      },
+      {
+        "id": 1336,
+        "curve_type": "line",
+        "vertex_ids": [
+          1264,
+          1260
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1340,
+          1353
+        ]
+      },
+      {
+        "id": 1348,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1264,
+          1263
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1353,
+          1384
+        ]
+      },
+      {
+        "id": 1360,
+        "curve_type": "line",
+        "vertex_ids": [
+          1226,
+          1238
+        ],
+        "length": 100.0,
+        "face_ids": [
+          1384,
+          1430
+        ]
+      },
+      {
+        "id": 1362,
+        "curve_type": "line",
+        "vertex_ids": [
+          1238,
+          1240
+        ],
+        "length": 40.0,
+        "face_ids": [
+          1384,
+          1478
+        ]
+      },
+      {
+        "id": 1364,
+        "curve_type": "line",
+        "vertex_ids": [
+          1228,
+          1240
+        ],
+        "length": 100.0,
+        "face_ids": [
+          1384,
+          1490
+        ]
+      },
+      {
+        "id": 1372,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1255,
+          1256
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1384,
+          1398
+        ]
+      },
+      {
+        "id": 1374,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1256,
+          1255
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1384,
+          1410
+        ]
+      },
+      {
+        "id": 1378,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1247,
+          1248
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1384,
+          1530
+        ]
+      },
+      {
+        "id": 1380,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1248,
+          1247
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1384,
+          1542
+        ]
+      },
+      {
+        "id": 1391,
+        "curve_type": "line",
+        "vertex_ids": [
+          1255,
+          1251
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1398,
+          1410
+        ]
+      },
+      {
+        "id": 1394,
+        "curve_type": "line",
+        "vertex_ids": [
+          1256,
+          1252
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1398,
+          1410
+        ]
+      },
+      {
+        "id": 1417,
+        "curve_type": "line",
+        "vertex_ids": [
+          1224,
+          1236
+        ],
+        "length": 100.0,
+        "face_ids": [
+          1430,
+          1444
+        ]
+      },
+      {
+        "id": 1419,
+        "curve_type": "line",
+        "vertex_ids": [
+          1236,
+          1238
+        ],
+        "length": 50.0,
+        "face_ids": [
+          1430,
+          1478
+        ]
+      },
+      {
+        "id": 1424,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1271,
+          1272
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1430,
+          1504
+        ]
+      },
+      {
+        "id": 1426,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1272,
+          1271
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1430,
+          1516
+        ]
+      },
+      {
+        "id": 1437,
+        "curve_type": "line",
+        "vertex_ids": [
+          1222,
+          1234
+        ],
+        "length": 100.0,
+        "face_ids": [
+          1444,
+          1463
+        ]
+      },
+      {
+        "id": 1439,
+        "curve_type": "line",
+        "vertex_ids": [
+          1234,
+          1236
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1444,
+          1478
+        ]
+      },
+      {
+        "id": 1452,
+        "curve_type": "line",
+        "vertex_ids": [
+          1232,
+          1234
+        ],
+        "length": 60.0,
+        "face_ids": [
+          1463,
+          1478
+        ]
+      },
+      {
+        "id": 1457,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1267,
+          1268
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1463,
+          1504
+        ]
+      },
+      {
+        "id": 1459,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1268,
+          1267
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1463,
+          1516
+        ]
+      },
+      {
+        "id": 1470,
+        "curve_type": "line",
+        "vertex_ids": [
+          1240,
+          1231
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1478,
+          1490
+        ]
+      },
+      {
+        "id": 1497,
+        "curve_type": "line",
+        "vertex_ids": [
+          1271,
+          1267
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1504,
+          1516
+        ]
+      },
+      {
+        "id": 1500,
+        "curve_type": "line",
+        "vertex_ids": [
+          1272,
+          1268
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1504,
+          1516
+        ]
+      },
+      {
+        "id": 1523,
+        "curve_type": "line",
+        "vertex_ids": [
+          1247,
+          1243
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1530,
+          1542
+        ]
+      },
+      {
+        "id": 1526,
+        "curve_type": "line",
+        "vertex_ids": [
+          1248,
+          1244
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1530,
+          1542
+        ]
+      },
+      {
+        "id": 1796,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1777,
+          1785
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1802,
+          1817
+        ]
+      },
+      {
+        "id": 1798,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1777,
+          1785
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1802,
+          1830
+        ]
+      },
+      {
+        "id": 1808,
+        "curve_type": "line",
+        "vertex_ids": [
+          1777,
+          1778
+        ],
+        "length": 37.0,
+        "face_ids": [
+          1817,
+          1830
+        ]
+      },
+      {
+        "id": 1810,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1778,
+          1786
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1817,
+          1846
+        ]
+      },
+      {
+        "id": 1812,
+        "curve_type": "line",
+        "vertex_ids": [
+          1785,
+          1786
+        ],
+        "length": 37.0,
+        "face_ids": [
+          1817,
+          1830
+        ]
+      },
+      {
+        "id": 1826,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1778,
+          1786
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1830,
+          1846
+        ]
+      },
+      {
+        "id": 1836,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1781,
+          1789
+        ],
+        "length": 15.0,
+        "face_ids": [
+          1846,
+          1861
+        ]
+      },
+      {
+        "id": 1838,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1781,
+          1789
+        ],
+        "length": 15.0,
+        "face_ids": [
+          1846,
+          1874
+        ]
+      },
+      {
+        "id": 1852,
+        "curve_type": "line",
+        "vertex_ids": [
+          1781,
+          1782
+        ],
+        "length": 3.0,
+        "face_ids": [
+          1861,
+          1874
+        ]
+      },
+      {
+        "id": 1854,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1782,
+          1790
+        ],
+        "length": 15.0,
+        "face_ids": [
+          1861,
+          1884
+        ]
+      },
+      {
+        "id": 1856,
+        "curve_type": "line",
+        "vertex_ids": [
+          1789,
+          1790
+        ],
+        "length": 3.0,
+        "face_ids": [
+          1861,
+          1874
+        ]
+      },
+      {
+        "id": 1870,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1782,
+          1790
+        ],
+        "length": 15.0,
+        "face_ids": [
+          1874,
+          1884
+        ]
+      },
+      {
+        "id": 2145,
+        "curve_type": "line",
+        "vertex_ids": [
+          2118,
+          2119
+        ],
+        "length": 3.0,
+        "face_ids": [
+          2155,
+          2170
+        ]
+      },
+      {
+        "id": 2147,
+        "curve_type": "line",
+        "vertex_ids": [
+          2119,
+          2121
+        ],
+        "length": 20.0,
+        "face_ids": [
+          2155,
+          2223
+        ]
+      },
+      {
+        "id": 2149,
+        "curve_type": "line",
+        "vertex_ids": [
+          2121,
+          2123
+        ],
+        "length": 3.0,
+        "face_ids": [
+          2155,
+          2204
+        ]
+      },
+      {
+        "id": 2151,
+        "curve_type": "line",
+        "vertex_ids": [
+          2123,
+          2118
+        ],
+        "length": 20.0,
+        "face_ids": [
+          2155,
+          2190
+        ]
+      },
+      {
+        "id": 2162,
+        "curve_type": "line",
+        "vertex_ids": [
+          2118,
+          2126
+        ],
+        "length": 15.0,
+        "face_ids": [
+          2170,
+          2190
+        ]
+      },
+      {
+        "id": 2164,
+        "curve_type": "line",
+        "vertex_ids": [
+          2126,
+          2127
+        ],
+        "length": 3.0,
+        "face_ids": [
+          2170,
+          2235
+        ]
+      },
+      {
+        "id": 2166,
+        "curve_type": "line",
+        "vertex_ids": [
+          2119,
+          2127
+        ],
+        "length": 15.0,
+        "face_ids": [
+          2170,
+          2223
+        ]
+      },
+      {
+        "id": 2177,
+        "curve_type": "line",
+        "vertex_ids": [
+          2123,
+          2131
+        ],
+        "length": 15.0,
+        "face_ids": [
+          2190,
+          2204
+        ]
+      },
+      {
+        "id": 2179,
+        "curve_type": "line",
+        "vertex_ids": [
+          2131,
+          2126
+        ],
+        "length": 20.0,
+        "face_ids": [
+          2190,
+          2235
+        ]
+      },
+      {
+        "id": 2184,
+        "curve_type": "circle",
+        "vertex_ids": [
+          2138,
+          2139
+        ],
+        "length": 10.0,
+        "face_ids": [
+          2190,
+          2249
+        ]
+      },
+      {
+        "id": 2186,
+        "curve_type": "circle",
+        "vertex_ids": [
+          2139,
+          2138
+        ],
+        "length": 10.0,
+        "face_ids": [
+          2190,
+          2261
+        ]
+      },
+      {
+        "id": 2197,
+        "curve_type": "line",
+        "vertex_ids": [
+          2121,
+          2129
+        ],
+        "length": 15.0,
+        "face_ids": [
+          2204,
+          2223
+        ]
+      },
+      {
+        "id": 2199,
+        "curve_type": "line",
+        "vertex_ids": [
+          2129,
+          2131
+        ],
+        "length": 3.0,
+        "face_ids": [
+          2204,
+          2235
+        ]
+      },
+      {
+        "id": 2212,
+        "curve_type": "line",
+        "vertex_ids": [
+          2127,
+          2129
+        ],
+        "length": 20.0,
+        "face_ids": [
+          2223,
+          2235
+        ]
+      },
+      {
+        "id": 2217,
+        "curve_type": "circle",
+        "vertex_ids": [
+          2134,
+          2135
+        ],
+        "length": 10.0,
+        "face_ids": [
+          2223,
+          2249
+        ]
+      },
+      {
+        "id": 2219,
+        "curve_type": "circle",
+        "vertex_ids": [
+          2135,
+          2134
+        ],
+        "length": 10.0,
+        "face_ids": [
+          2223,
+          2261
+        ]
+      },
+      {
+        "id": 2242,
+        "curve_type": "line",
+        "vertex_ids": [
+          2135,
+          2139
+        ],
+        "length": 3.0,
+        "face_ids": [
+          2249,
+          2261
+        ]
+      },
+      {
+        "id": 2245,
+        "curve_type": "line",
+        "vertex_ids": [
+          2134,
+          2138
+        ],
+        "length": 3.0,
+        "face_ids": [
+          2249,
+          2261
+        ]
+      },
+      {
+        "id": 2594,
+        "curve_type": "circle",
+        "vertex_ids": [
+          2583,
+          2584
+        ],
+        "length": 10.0,
+        "face_ids": [
+          2600,
+          2615
+        ]
+      },
+      {
+        "id": 2596,
+        "curve_type": "circle",
+        "vertex_ids": [
+          2584,
+          2583
+        ],
+        "length": 10.0,
+        "face_ids": [
+          2600,
+          2628
+        ]
+      },
+      {
+        "id": 2607,
+        "curve_type": "line",
+        "vertex_ids": [
+          2583,
+          2587
+        ],
+        "length": 200.0,
+        "face_ids": [
+          2615,
+          2628
+        ]
+      },
+      {
+        "id": 2609,
+        "curve_type": "circle",
+        "vertex_ids": [
+          2587,
+          2588
+        ],
+        "length": 10.0,
+        "face_ids": [
+          2615,
+          2638
+        ]
+      },
+      {
+        "id": 2611,
+        "curve_type": "line",
+        "vertex_ids": [
+          2584,
+          2588
+        ],
+        "length": 200.0,
+        "face_ids": [
+          2615,
+          2628
+        ]
+      },
+      {
+        "id": 2623,
+        "curve_type": "circle",
+        "vertex_ids": [
+          2588,
+          2587
+        ],
+        "length": 10.0,
+        "face_ids": [
+          2628,
+          2638
+        ]
+      }
+    ],
+    "faces": [
+      {
+        "id": 456,
+        "surface_type": "plane",
+        "orientation": false,
+        "outer_loop_edges": [
+          446,
+          448,
+          450,
+          452
+        ],
+        "inner_loops": [],
+        "area": 3600.0,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "id": 471,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          446,
+          463,
+          465,
+          467
+        ],
+        "inner_loops": [],
+        "area": 3000.0,
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 521,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          452,
+          478,
+          480,
+          463
+        ],
+        "inner_loops": [
+          [
+            485,
+            487
+          ],
+          [
+            491,
+            493
+          ],
+          [
+            497,
+            499
+          ],
+          [
+            503,
+            505
+          ],
+          [
+            509,
+            511
+          ],
+          [
+            515,
+            517
+          ]
+        ],
+        "area": 27000.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 536,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          527,
+          529,
+          485,
+          532
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 585,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          448,
+          467,
+          544,
+          546
+        ],
+        "inner_loops": [
+          [
+            527,
+            551
+          ],
+          [
+            555,
+            557
+          ],
+          [
+            561,
+            563
+          ],
+          [
+            567,
+            569
+          ],
+          [
+            573,
+            575
+          ],
+          [
+            579,
+            581
+          ]
+        ],
+        "area": 27000.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 597,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          551,
+          532,
+          487,
+          529
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 611,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          555,
+          604,
+          491,
+          607
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 623,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          557,
+          607,
+          493,
+          604
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 637,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          561,
+          630,
+          497,
+          633
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 649,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          563,
+          633,
+          499,
+          630
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 663,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          567,
+          656,
+          503,
+          659
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 675,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          569,
+          659,
+          505,
+          656
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 688,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          465,
+          480,
+          683,
+          544
+        ],
+        "inner_loops": [],
+        "area": 3600.0,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "id": 700,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          450,
+          546,
+          683,
+          478
+        ],
+        "inner_loops": [],
+        "area": 3000.0,
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 714,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          573,
+          707,
+          509,
+          710
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 726,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          575,
+          710,
+          511,
+          707
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 740,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          579,
+          733,
+          515,
+          736
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 752,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          581,
+          736,
+          517,
+          733
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1292,
+        "surface_type": "plane",
+        "orientation": false,
+        "outer_loop_edges": [
+          1278,
+          1280,
+          1282,
+          1284,
+          1286,
+          1288
+        ],
+        "inner_loops": [],
+        "area": 1000.0,
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1325,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          1278,
+          1299,
+          1301,
+          1303
+        ],
+        "inner_loops": [
+          [
+            1307,
+            1309
+          ],
+          [
+            1313,
+            1315
+          ],
+          [
+            1319,
+            1321
+          ]
+        ],
+        "area": 5000.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1340,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          1307,
+          1332,
+          1334,
+          1336
+        ],
+        "inner_loops": [],
+        "area": 100.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1353,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          1309,
+          1336,
+          1348,
+          1332
+        ],
+        "inner_loops": [],
+        "area": 100.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1384,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          1286,
+          1360,
+          1362,
+          1364
+        ],
+        "inner_loops": [
+          [
+            1334,
+            1348
+          ],
+          [
+            1372,
+            1374
+          ],
+          [
+            1378,
+            1380
+          ]
+        ],
+        "area": 4000.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1398,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          1313,
+          1391,
+          1372,
+          1394
+        ],
+        "inner_loops": [],
+        "area": 100.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1410,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          1315,
+          1394,
+          1374,
+          1391
+        ],
+        "inner_loops": [],
+        "area": 100.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1430,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          1284,
+          1417,
+          1419,
+          1360
+        ],
+        "inner_loops": [
+          [
+            1424,
+            1426
+          ]
+        ],
+        "area": 5000.0,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "id": 1444,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          1282,
+          1437,
+          1439,
+          1417
+        ],
+        "inner_loops": [],
+        "area": 1000.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1463,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          1280,
+          1303,
+          1452,
+          1437
+        ],
+        "inner_loops": [
+          [
+            1457,
+            1459
+          ]
+        ],
+        "area": 6000.0,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      {
+        "id": 1478,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          1301,
+          1470,
+          1362,
+          1419,
+          1439,
+          1452
+        ],
+        "inner_loops": [],
+        "area": 1000.0,
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1490,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          1288,
+          1364,
+          1470,
+          1299
+        ],
+        "inner_loops": [],
+        "area": 1000.0,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "id": 1504,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          1457,
+          1497,
+          1424,
+          1500
+        ],
+        "inner_loops": [],
+        "area": 100.0,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      {
+        "id": 1516,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          1459,
+          1500,
+          1426,
+          1497
+        ],
+        "inner_loops": [],
+        "area": 100.0,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      {
+        "id": 1530,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          1319,
+          1523,
+          1378,
+          1526
+        ],
+        "inner_loops": [],
+        "area": 100.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1542,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          1321,
+          1526,
+          1380,
+          1523
+        ],
+        "inner_loops": [],
+        "area": 100.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1802,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          1796,
+          1798
+        ],
+        "inner_loops": [],
+        "area": 0.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1817,
+        "surface_type": "cylinder",
+        "orientation": true,
+        "outer_loop_edges": [
+          1808,
+          1810,
+          1812,
+          1796
+        ],
+        "inner_loops": [],
+        "area": 370.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1830,
+        "surface_type": "cylinder",
+        "orientation": true,
+        "outer_loop_edges": [
+          1808,
+          1798,
+          1812,
+          1826
+        ],
+        "inner_loops": [],
+        "area": 370.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1846,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          1836,
+          1838
+        ],
+        "inner_loops": [
+          [
+            1826,
+            1810
+          ]
+        ],
+        "area": 0.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1861,
+        "surface_type": "cylinder",
+        "orientation": true,
+        "outer_loop_edges": [
+          1852,
+          1854,
+          1856,
+          1836
+        ],
+        "inner_loops": [],
+        "area": 45.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1874,
+        "surface_type": "cylinder",
+        "orientation": true,
+        "outer_loop_edges": [
+          1852,
+          1838,
+          1856,
+          1870
+        ],
+        "inner_loops": [],
+        "area": 45.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1884,
+        "surface_type": "plane",
+        "orientation": false,
+        "outer_loop_edges": [
+          1854,
+          1870
+        ],
+        "inner_loops": [],
+        "area": 0.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2155,
+        "surface_type": "plane",
+        "orientation": false,
+        "outer_loop_edges": [
+          2145,
+          2147,
+          2149,
+          2151
+        ],
+        "inner_loops": [],
+        "area": 60.0,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "id": 2170,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          2145,
+          2162,
+          2164,
+          2166
+        ],
+        "inner_loops": [],
+        "area": 45.0,
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2190,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          2151,
+          2177,
+          2179,
+          2162
+        ],
+        "inner_loops": [
+          [
+            2184,
+            2186
+          ]
+        ],
+        "area": 300.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2204,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          2149,
+          2197,
+          2199,
+          2177
+        ],
+        "inner_loops": [],
+        "area": 45.0,
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2223,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          2147,
+          2166,
+          2212,
+          2197
+        ],
+        "inner_loops": [
+          [
+            2217,
+            2219
+          ]
+        ],
+        "area": 300.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2235,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          2164,
+          2179,
+          2199,
+          2212
+        ],
+        "inner_loops": [],
+        "area": 60.0,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "id": 2249,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          2217,
+          2242,
+          2184,
+          2245
+        ],
+        "inner_loops": [],
+        "area": 30.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2261,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          2219,
+          2245,
+          2186,
+          2242
+        ],
+        "inner_loops": [],
+        "area": 30.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2600,
+        "surface_type": "plane",
+        "orientation": false,
+        "outer_loop_edges": [
+          2594,
+          2596
+        ],
+        "inner_loops": [],
+        "area": 0.0,
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2615,
+        "surface_type": "cylinder",
+        "orientation": true,
+        "outer_loop_edges": [
+          2594,
+          2607,
+          2609,
+          2611
+        ],
+        "inner_loops": [],
+        "area": 2000.0,
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2628,
+        "surface_type": "cylinder",
+        "orientation": true,
+        "outer_loop_edges": [
+          2596,
+          2611,
+          2623,
+          2607
+        ],
+        "inner_loops": [],
+        "area": 2000.0,
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2638,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          2609,
+          2623
+        ],
+        "inner_loops": [],
+        "area": 0.0,
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "shells": [
+      {
+        "id": 753,
+        "kind": "outer",
+        "face_ids": [
+          456,
+          471,
+          521,
+          536,
+          585,
+          597,
+          611,
+          623,
+          637,
+          649,
+          663,
+          675,
+          688,
+          700,
+          714,
+          726,
+          740,
+          752
+        ],
+        "closed": true
+      },
+      {
+        "id": 1543,
+        "kind": "outer",
+        "face_ids": [
+          1292,
+          1325,
+          1340,
+          1353,
+          1384,
+          1398,
+          1410,
+          1430,
+          1444,
+          1463,
+          1478,
+          1490,
+          1504,
+          1516,
+          1530,
+          1542
+        ],
+        "closed": true
+      },
+      {
+        "id": 1885,
+        "kind": "outer",
+        "face_ids": [
+          1802,
+          1817,
+          1830,
+          1846,
+          1861,
+          1874,
+          1884
+        ],
+        "closed": true
+      },
+      {
+        "id": 2262,
+        "kind": "outer",
+        "face_ids": [
+          2155,
+          2170,
+          2190,
+          2204,
+          2223,
+          2235,
+          2249,
+          2261
+        ],
+        "closed": true
+      },
+      {
+        "id": 2639,
+        "kind": "outer",
+        "face_ids": [
+          2600,
+          2615,
+          2628,
+          2638
+        ],
+        "closed": true
+      }
+    ],
+    "healing_log": [],
+    "parse_errors": [],
+    "edge_uses": {
+      "446": [
+        [
+          456,
+          true
+        ],
+        [
+          471,
+          false
+        ]
+      ],
+      "448": [
+        [
+          456,
+          true
+        ],
+        [
+          585,
+          false
+        ]
+      ],
+      "450": [
+        [
+          456,
+          true
+        ],
+        [
+          700,
+          false
+        ]
+      ],
+      "452": [
+        [
+          456,
+          true
+        ],
+        [
+          521,
+          false
+        ]
+      ],
+      "463": [
+        [
+          471,
+          true
+        ],
+        [
+          521,
+          false
+        ]
+      ],
+      "465": [
+        [
+          471,
+          true
+        ],
+        [
+          688,
+          false
+        ]
+      ],
+      "467": [
+        [
+          471,
+          false
+        ],
+        [
+          585,
+          true
+        ]
+      ],
+      "478": [
+        [
+          521,
+          true
+        ],
+        [
+          700,
+          false
+        ]
+      ],
+      "480": [
+        [
+          521,
+          true
+        ],
+        [
+          688,
+          false
+        ]
+      ],
+      "485": [
+        [
+          521,
+          false
+        ],
+        [
+          536,
+          true
+        ]
+      ],
+      "487": [
+        [
+          521,
+          false
+        ],
+        [
+          597,
+          true
+        ]
+      ],
+      "491": [
+        [
+          521,
+          false
+        ],
+        [
+          611,
+          true
+        ]
+      ],
+      "493": [
+        [
+          521,
+          false
+        ],
+        [
+          623,
+          true
+        ]
+      ],
+      "497": [
+        [
+          521,
+          true
+        ],
+        [
+          637,
+          false
+        ]
+      ],
+      "499": [
+        [
+          521,
+          true
+        ],
+        [
+          649,
+          false
+        ]
+      ],
+      "503": [
+        [
+          521,
+          true
+        ],
+        [
+          663,
+          false
+        ]
+      ],
+      "505": [
+        [
+          521,
+          true
+        ],
+        [
+          675,
+          false
+        ]
+      ],
+      "509": [
+        [
+          521,
+          true
+        ],
+        [
+          714,
+          false
+        ]
+      ],
+      "511": [
+        [
+          521,
+          true
+        ],
+        [
+          726,
+          false
+        ]
+      ],
+      "515": [
+        [
+          521,
+          false
+        ],
+        [
+          740,
+          true
+        ]
+      ],
+      "517": [
+        [
+          521,
+          false
+        ],
+        [
+          752,
+          true
+        ]
+      ],
+      "527": [
+        [
+          536,
+          false
+        ],
+        [
+          585,
+          true
+        ]
+      ],
+      "529": [
+        [
+          536,
+          true
+        ],
+        [
+          597,
+          false
+        ]
+      ],
+      "532": [
+        [
+          536,
+          false
+        ],
+        [
+          597,
+          true
+        ]
+      ],
+      "544": [
+        [
+          585,
+          true
+        ],
+        [
+          688,
+          false
+        ]
+      ],
+      "546": [
+        [
+          585,
+          false
+        ],
+        [
+          700,
+          true
+        ]
+      ],
+      "551": [
+        [
+          585,
+          true
+        ],
+        [
+          597,
+          false
+        ]
+      ],
+      "555": [
+        [
+          585,
+          true
+        ],
+        [
+          611,
+          false
+        ]
+      ],
+      "557": [
+        [
+          585,
+          true
+        ],
+        [
+          623,
+          false
+        ]
+      ],
+      "561": [
+        [
+          585,
+          false
+        ],
+        [
+          637,
+          true
+        ]
+      ],
+      "563": [
+        [
+          585,
+          false
+        ],
+        [
+          649,
+          true
+        ]
+      ],
+      "567": [
+        [
+          585,
+          false
+        ],
+        [
+          663,
+          true
+        ]
+      ],
+      "569": [
+        [
+          585,
+          false
+        ],
+        [
+          675,
+          true
+        ]
+      ],
+      "573": [
+        [
+          585,
+          false
+        ],
+        [
+          714,
+          true
+        ]
+      ],
+      "575": [
+        [
+          585,
+          false
+        ],
+        [
+          726,
+          true
+        ]
+      ],
+      "579": [
+        [
+          585,
+          true
+        ],
+        [
+          740,
+          false
+        ]
+      ],
+      "581": [
+        [
+          585,
+          true
+        ],
+        [
+          752,
+          false
+        ]
+      ],
+      "604": [
+        [
+          611,
+          true
+        ],
+        [
+          623,
+          false
+        ]
+      ],
+      "607": [
+        [
+          611,
+          false
+        ],
+        [
+          623,
+          true
+        ]
+      ],
+      "630": [
+        [
+          637,
+          true
+        ],
+        [
+          649,
+          false
+        ]
+      ],
+      "633": [
+        [
+          637,
+          false
+        ],
+        [
+          649,
+          true
+        ]
+      ],
+      "656": [
+        [
+          663,
+          true
+        ],
+        [
+          675,
+          false
+        ]
+      ],
+      "659": [
+        [
+          663,
+          false
+        ],
+        [
+          675,
+          true
+        ]
+      ],
+      "683": [
+        [
+          688,
+          false
+        ],
+        [
+          700,
+          true
+        ]
+      ],
+      "707": [
+        [
+          714,
+          true
+        ],
+        [
+          726,
+          false
+        ]
+      ],
+      "710": [
+        [
+          714,
+          false
+        ],
+        [
+          726,
+          true
+        ]
+      ],
+      "733": [
+        [
+          740,
+          true
+        ],
+        [
+          752,
+          false
+        ]
+      ],
+      "736": [
+        [
+          740,
+          false
+        ],
+        [
+          752,
+          true
+        ]
+      ],
+      "1278": [
+        [
+          1292,
+          true
+        ],
+        [
+          1325,
+          false
+        ]
+      ],
+      "1280": [
+        [
+          1292,
+          true
+        ],
+        [
+          1463,
+          false
+        ]
+      ],
+      "1282": [
+        [
+          1292,
+          true
+        ],
+        [
+          1444,
+          false
+        ]
+      ],
+      "1284": [
+        [
+          1292,
+          true
+        ],
+        [
+          1430,
+          false
+        ]
+      ],
+      "1286": [
+        [
+          1292,
+          true
+        ],
+        [
+          1384,
+          false
+        ]
+      ],
+      "1288": [
+        [
+          1292,
+          true
+        ],
+        [
+          1490,
+          false
+        ]
+      ],
+      "1299": [
+        [
+          1325,
+          true
+        ],
+        [
+          1490,
+          false
+        ]
+      ],
+      "1301": [
+        [
+          1325,
+          true
+        ],
+        [
+          1478,
+          false
+        ]
+      ],
+      "1303": [
+        [
+          1325,
+          false
+        ],
+        [
+          1463,
+          true
+        ]
+      ],
+      "1307": [
+        [
+          1325,
+          true
+        ],
+        [
+          1340,
+          false
+        ]
+      ],
+      "1309": [
+        [
+          1325,
+          true
+        ],
+        [
+          1353,
+          false
+        ]
+      ],
+      "1313": [
+        [
+          1325,
+          true
+        ],
+        [
+          1398,
+          false
+        ]
+      ],
+      "1315": [
+        [
+          1325,
+          true
+        ],
+        [
+          1410,
+          false
+        ]
+      ],
+      "1319": [
+        [
+          1325,
+          true
+        ],
+        [
+          1530,
+          false
+        ]
+      ],
+      "1321": [
+        [
+          1325,
+          true
+        ],
+        [
+          1542,
+          false
+        ]
+      ],
+      "1332": [
+        [
+          1340,
+          false
+        ],
+        [
+          1353,
+          true
+        ]
+      ],
+      "1334": [
+        [
+          1340,
+          true
+        ],
+        [
+          1384,
+          false
+        ]
+      ],
+      "1336": [
+        [
+          1340,
+          true
+        ],
+        [
+          1353,
+          false
+        ]
+      ],
+      "1348": [
+        [
+          1353,
+          true
+        ],
+        [
+          1384,
+          false
+        ]
+      ],
+      "1360": [
+        [
+          1384,
+          true
+        ],
+        [
+          1430,
+          false
+        ]
+      ],
+      "1362": [
+        [
+          1384,
+          true
+        ],
+        [
+          1478,
+          false
+        ]
+      ],
+      "1364": [
+        [
+          1384,
+          false
+        ],
+        [
+          1490,
+          true
+        ]
+      ],
+      "1372": [
+        [
+          1384,
+          false
+        ],
+        [
+          1398,
+          true
+        ]
+      ],
+      "1374": [
+        [
+          1384,
+          false
+        ],
+        [
+          1410,
+          true
+        ]
+      ],
+      "1378": [
+        [
+          1384,
+          false
+        ],
+        [
+          1530,
+          true
+        ]
+      ],
+      "1380": [
+        [
+          1384,
+          false
+        ],
+        [
+          1542,
+          true
+        ]
+      ],
+      "1391": [
+        [
+          1398,
+          false
+        ],
+        [
+          1410,
+          true
+        ]
+      ],
+      "1394": [
+        [
+          1398,
+          true
+        ],
+        [
+          1410,
+          false
+        ]
+      ],
+      "1417": [
+        [
+          1430,
+          true
+        ],
+        [
+          1444,
+          false
+        ]
+      ],
+      "1419": [
+        [
+          1430,
+          true
+        ],
+        [
+          1478,
+          false
+        ]
+      ],
+      "1424": [
+        [
+          1430,
+          false
+        ],
+        [
+          1504,
+          true
+        ]
+      ],
+      "1426": [
+        [
+          1430,
+          false
+        ],
+        [
+          1516,
+          true
+        ]
+      ],
+      "1437": [
+        [
+          1444,
+          true
+        ],
+        [
+          1463,
+          false
+        ]
+      ],
+      "1439": [
+        [
+          1444,
+          true
+        ],
+        [
+          1478,
+          false
+        ]
+      ],
+      "1452": [
+        [
+          1463,
+          true
+        ],
+        [
+          1478,
+          false
+        ]
+      ],
+      "1457": [
+        [
+          1463,
+          true
+        ],
+        [
+          1504,
+          false
+        ]
+      ],
+      "1459": [
+        [
+          1463,
+          true
+        ],
+        [
+          1516,
+          false
+        ]
+      ],
+      "1470": [
+        [
+          1478,
+          false
+        ],
+        [
+          1490,
+          true
+        ]
+      ],
+      "1497": [
+        [
+          1504,
+          false
+        ],
+        [
+          1516,
+          true
+        ]
+      ],
+      "1500": [
+        [
+          1504,
+          true
+        ],
+        [
+          1516,
+          false
+        ]
+      ],
+      "1523": [
+        [
+          1530,
+          false
+        ],
+        [
+          1542,
+          true
+        ]
+      ],
+      "1526": [
+        [
+          1530,
+          true
+        ],
+        [
+          1542,
+          false
+        ]
+      ],
+      "1796": [
+        [
+          1802,
+          true
+        ],
+        [
+          1817,
+          false
+        ]
+      ],
+      "1798": [
+        [
+          1802,
+          false
+        ],
+        [
+          1830,
+          true
+        ]
+      ],
+      "1808": [
+        [
+          1817,
+          true
+        ],
+        [
+          1830,
+          false
+        ]
+      ],
+      "1810": [
+        [
+          1817,
+          true
+        ],
+        [
+          1846,
+          false
+        ]
+      ],
+      "1812": [
+        [
+          1817,
+          false
+        ],
+        [
+          1830,
+          true
+        ]
+      ],
+      "1826": [
+        [
+          1830,
+          false
+        ],
+        [
+          1846,
+          true
+        ]
+      ],
+      "1836": [
+        [
+          1846,
+          true
+        ],
+        [
+          1861,
+          false
+        ]
+      ],
+      "1838": [
+        [
+          1846,
+          false
+        ],
+        [
+          1874,
+          true
+        ]
+      ],
+      "1852": [
+        [
+          1861,
+          true
+        ],
+        [
+          1874,
+          false
+        ]
+      ],
+      "1854": [
+        [
+          1861,
+          true
+        ],
+        [
+          1884,
+          false
+        ]
+      ],
+      "1856": [
+        [
+          1861,
+          false
+        ],
+        [
+          1874,
+          true
+        ]
+      ],
+      "1870": [
+        [
+          1874,
+          false
+        ],
+        [
+          1884,
+          true
+        ]
+      ],
+      "2145": [
+        [
+          2155,
+          true
+        ],
+        [
+          2170,
+          false
+        ]
+      ],
+      "2147": [
+        [
+          2155,
+          true
+        ],
+        [
+          2223,
+          false
+        ]
+      ],
+      "2149": [
+        [
+          2155,
+          true
+        ],
+        [
+          2204,
+          false
+        ]
+      ],
+      "2151": [
+        [
+          2155,
+          true
+        ],
+        [
+          2190,
+          false
+        ]
+      ],
+      "2162": [
+        [
+          2170,
+          true
+        ],
+        [
+          2190,
+          false
+        ]
+      ],
+      "2164": [
+        [
+          2170,
+          true
+        ],
+        [
+          2235,
+          false
+        ]
+      ],
+      "2166": [
+        [
+          2170,
+          false
+        ],
+        [
+          2223,
+          true
+        ]
+      ],
+      "2177": [
+        [
+          2190,
+          true
+        ],
+        [
+          2204,
+          false
+        ]
+      ],
+      "2179": [
+        [
+          2190,
+          true
+        ],
+        [
+          2235,
+          false
+        ]
+      ],
+      "2184": [
+        [
+          2190,
+          true
+        ],
+        [
+          2249,
+          false
+        ]
+      ],
+      "2186": [
+        [
+          2190,
+          true
+        ],
+        [
+          2261,
+          false
+        ]
+      ],
+      "2197": [
+        [
+          2204,
+          true
+        ],
+        [
+          2223,
+          false
+        ]
+      ],
+      "2199": [
+        [
+          2204,
+          true
+        ],
+        [
+          2235,
+          false
+        ]
+      ],
+      "2212": [
+        [
+          2223,
+          true
+        ],
+        [
+          2235,
+          false
+        ]
+      ],
+      "2217": [
+        [
+          2223,
+          false
+        ],
+        [
+          2249,
+          true
+        ]
+      ],
+      "2219": [
+        [
+          2223,
+          false
+        ],
+        [
+          2261,
+          true
+        ]
+      ],
+      "2242": [
+        [
+          2249,
+          true
+        ],
+        [
+          2261,
+          false
+        ]
+      ],
+      "2245": [
+        [
+          2249,
+          false
+        ],
+        [
+          2261,
+          true
+        ]
+      ],
+      "2594": [
+        [
+          2600,
+          true
+        ],
+        [
+          2615,
+          false
+        ]
+      ],
+      "2596": [
+        [
+          2600,
+          true
+        ],
+        [
+          2628,
+          false
+        ]
+      ],
+      "2607": [
+        [
+          2615,
+          true
+        ],
+        [
+          2628,
+          false
+        ]
+      ],
+      "2609": [
+        [
+          2615,
+          true
+        ],
+        [
+          2638,
+          false
+        ]
+      ],
+      "2611": [
+        [
+          2615,
+          false
+        ],
+        [
+          2628,
+          true
+        ]
+      ],
+      "2623": [
+        [
+          2628,
+          true
+        ],
+        [
+          2638,
+          false
+        ]
+      ]
+    },
+    "counts": {
+      "V": 84,
+      "E": 126,
+      "F": 53,
+      "S": 5,
+      "R": 23
+    }
+  },
+  "kernel_b": {
+    "source_file": "/Users/yashitapuri/brep-sentinel/api_storage/single/ca95aec862c9/as1_pe_203.stp",
+    "file_sha256": "be1254354f6929a08ce1c8049d4a0a2f4406da4ea283fc4247d009c81976641c",
+    "kernel_name": "kernel_b_strict",
+    "kernel_version": "strict-literal/1.0 (tol=0)",
+    "healing_enabled": false,
+    "schema_version": "descriptor/1.0",
+    "vertices": [
+      {
+        "id": 379,
+        "xyz": [
+          40.0,
+          -20.0,
+          -75.0
+        ]
+      },
+      {
+        "id": 380,
+        "xyz": [
+          40.0,
+          0.0,
+          -75.0
+        ]
+      },
+      {
+        "id": 382,
+        "xyz": [
+          -140.0,
+          0.0,
+          -75.0
+        ]
+      },
+      {
+        "id": 384,
+        "xyz": [
+          -140.0,
+          -20.0,
+          -75.0
+        ]
+      },
+      {
+        "id": 387,
+        "xyz": [
+          40.0,
+          -20.0,
+          75.0
+        ]
+      },
+      {
+        "id": 388,
+        "xyz": [
+          40.0,
+          0.0,
+          75.0
+        ]
+      },
+      {
+        "id": 390,
+        "xyz": [
+          -140.0,
+          0.0,
+          75.0
+        ]
+      },
+      {
+        "id": 392,
+        "xyz": [
+          -140.0,
+          -20.0,
+          75.0
+        ]
+      },
+      {
+        "id": 395,
+        "xyz": [
+          20.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 396,
+        "xyz": [
+          10.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 399,
+        "xyz": [
+          20.0,
+          -20.0,
+          0.0
+        ]
+      },
+      {
+        "id": 400,
+        "xyz": [
+          10.0,
+          -20.0,
+          0.0
+        ]
+      },
+      {
+        "id": 403,
+        "xyz": [
+          -2.5,
+          0.0,
+          12.990381057
+        ]
+      },
+      {
+        "id": 404,
+        "xyz": [
+          -12.5,
+          0.0,
+          12.990381057
+        ]
+      },
+      {
+        "id": 407,
+        "xyz": [
+          -2.5,
+          -20.0,
+          12.990381057
+        ]
+      },
+      {
+        "id": 408,
+        "xyz": [
+          -12.5,
+          -20.0,
+          12.990381057
+        ]
+      },
+      {
+        "id": 411,
+        "xyz": [
+          -2.5,
+          0.0,
+          -12.990381057
+        ]
+      },
+      {
+        "id": 412,
+        "xyz": [
+          -12.5,
+          0.0,
+          -12.990381057
+        ]
+      },
+      {
+        "id": 415,
+        "xyz": [
+          -2.5,
+          -20.0,
+          -12.990381057
+        ]
+      },
+      {
+        "id": 416,
+        "xyz": [
+          -12.5,
+          -20.0,
+          -12.990381057
+        ]
+      },
+      {
+        "id": 419,
+        "xyz": [
+          -120.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 420,
+        "xyz": [
+          -110.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 423,
+        "xyz": [
+          -120.0,
+          -20.0,
+          0.0
+        ]
+      },
+      {
+        "id": 424,
+        "xyz": [
+          -110.0,
+          -20.0,
+          0.0
+        ]
+      },
+      {
+        "id": 427,
+        "xyz": [
+          -97.5,
+          0.0,
+          12.990381057
+        ]
+      },
+      {
+        "id": 428,
+        "xyz": [
+          -87.5,
+          0.0,
+          12.990381057
+        ]
+      },
+      {
+        "id": 431,
+        "xyz": [
+          -97.5,
+          -20.0,
+          12.990381057
+        ]
+      },
+      {
+        "id": 432,
+        "xyz": [
+          -87.5,
+          -20.0,
+          12.990381057
+        ]
+      },
+      {
+        "id": 435,
+        "xyz": [
+          -97.5,
+          0.0,
+          -12.990381057
+        ]
+      },
+      {
+        "id": 436,
+        "xyz": [
+          -87.5,
+          0.0,
+          -12.990381057
+        ]
+      },
+      {
+        "id": 439,
+        "xyz": [
+          -97.5,
+          -20.0,
+          -12.990381057
+        ]
+      },
+      {
+        "id": 440,
+        "xyz": [
+          -87.5,
+          -20.0,
+          -12.990381057
+        ]
+      },
+      {
+        "id": 1219,
+        "xyz": [
+          -50.0,
+          0.0,
+          50.0
+        ]
+      },
+      {
+        "id": 1220,
+        "xyz": [
+          -50.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1222,
+        "xyz": [
+          -50.0,
+          60.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1224,
+        "xyz": [
+          -50.0,
+          60.0,
+          10.0
+        ]
+      },
+      {
+        "id": 1226,
+        "xyz": [
+          -50.0,
+          10.0,
+          10.0
+        ]
+      },
+      {
+        "id": 1228,
+        "xyz": [
+          -50.0,
+          10.0,
+          50.0
+        ]
+      },
+      {
+        "id": 1231,
+        "xyz": [
+          50.0,
+          0.0,
+          50.0
+        ]
+      },
+      {
+        "id": 1232,
+        "xyz": [
+          50.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1234,
+        "xyz": [
+          50.0,
+          60.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1236,
+        "xyz": [
+          50.0,
+          60.0,
+          10.0
+        ]
+      },
+      {
+        "id": 1238,
+        "xyz": [
+          50.0,
+          10.0,
+          10.0
+        ]
+      },
+      {
+        "id": 1240,
+        "xyz": [
+          50.0,
+          10.0,
+          50.0
+        ]
+      },
+      {
+        "id": 1243,
+        "xyz": [
+          5.0,
+          0.0,
+          20.0
+        ]
+      },
+      {
+        "id": 1244,
+        "xyz": [
+          -5.0,
+          0.0,
+          20.0
+        ]
+      },
+      {
+        "id": 1247,
+        "xyz": [
+          5.0,
+          10.0,
+          20.0
+        ]
+      },
+      {
+        "id": 1248,
+        "xyz": [
+          -5.0,
+          10.0,
+          20.0
+        ]
+      },
+      {
+        "id": 1251,
+        "xyz": [
+          -7.990381057,
+          0.0,
+          42.5
+        ]
+      },
+      {
+        "id": 1252,
+        "xyz": [
+          -17.990381057,
+          0.0,
+          42.5
+        ]
+      },
+      {
+        "id": 1255,
+        "xyz": [
+          -7.990381057,
+          10.0,
+          42.5
+        ]
+      },
+      {
+        "id": 1256,
+        "xyz": [
+          -17.990381057,
+          10.0,
+          42.5
+        ]
+      },
+      {
+        "id": 1259,
+        "xyz": [
+          17.990381057,
+          0.0,
+          42.5
+        ]
+      },
+      {
+        "id": 1260,
+        "xyz": [
+          7.990381057,
+          0.0,
+          42.5
+        ]
+      },
+      {
+        "id": 1263,
+        "xyz": [
+          17.990381057,
+          10.0,
+          42.5
+        ]
+      },
+      {
+        "id": 1264,
+        "xyz": [
+          7.990381057,
+          10.0,
+          42.5
+        ]
+      },
+      {
+        "id": 1267,
+        "xyz": [
+          -5.0,
+          40.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1268,
+        "xyz": [
+          5.0,
+          40.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1271,
+        "xyz": [
+          -5.0,
+          40.0,
+          10.0
+        ]
+      },
+      {
+        "id": 1272,
+        "xyz": [
+          5.0,
+          40.0,
+          10.0
+        ]
+      },
+      {
+        "id": 1777,
+        "xyz": [
+          -5.0,
+          37.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1778,
+        "xyz": [
+          -5.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1781,
+        "xyz": [
+          -7.5,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1782,
+        "xyz": [
+          -7.5,
+          -3.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1785,
+        "xyz": [
+          5.0,
+          37.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1786,
+        "xyz": [
+          5.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1789,
+        "xyz": [
+          7.5,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1790,
+        "xyz": [
+          7.5,
+          -3.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2118,
+        "xyz": [
+          10.0,
+          -3.0,
+          -7.5
+        ]
+      },
+      {
+        "id": 2119,
+        "xyz": [
+          10.0,
+          0.0,
+          -7.5
+        ]
+      },
+      {
+        "id": 2121,
+        "xyz": [
+          -10.0,
+          0.0,
+          -7.5
+        ]
+      },
+      {
+        "id": 2123,
+        "xyz": [
+          -10.0,
+          -3.0,
+          -7.5
+        ]
+      },
+      {
+        "id": 2126,
+        "xyz": [
+          10.0,
+          -3.0,
+          7.5
+        ]
+      },
+      {
+        "id": 2127,
+        "xyz": [
+          10.0,
+          0.0,
+          7.5
+        ]
+      },
+      {
+        "id": 2129,
+        "xyz": [
+          -10.0,
+          0.0,
+          7.5
+        ]
+      },
+      {
+        "id": 2131,
+        "xyz": [
+          -10.0,
+          -3.0,
+          7.5
+        ]
+      },
+      {
+        "id": 2134,
+        "xyz": [
+          5.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2135,
+        "xyz": [
+          -5.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2138,
+        "xyz": [
+          5.0,
+          -3.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2139,
+        "xyz": [
+          -5.0,
+          -3.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2583,
+        "xyz": [
+          0.0,
+          0.0,
+          5.0
+        ]
+      },
+      {
+        "id": 2584,
+        "xyz": [
+          0.0,
+          0.0,
+          -5.0
+        ]
+      },
+      {
+        "id": 2587,
+        "xyz": [
+          200.0,
+          0.0,
+          5.0
+        ]
+      },
+      {
+        "id": 2588,
+        "xyz": [
+          200.0,
+          0.0,
+          -5.0
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "id": 446,
+        "curve_type": "line",
+        "vertex_ids": [
+          379,
+          380
+        ],
+        "length": 20.0,
+        "face_ids": [
+          456,
+          471
+        ]
+      },
+      {
+        "id": 448,
+        "curve_type": "line",
+        "vertex_ids": [
+          380,
+          382
+        ],
+        "length": 180.0,
+        "face_ids": [
+          456,
+          585
+        ]
+      },
+      {
+        "id": 450,
+        "curve_type": "line",
+        "vertex_ids": [
+          382,
+          384
+        ],
+        "length": 20.0,
+        "face_ids": [
+          456,
+          700
+        ]
+      },
+      {
+        "id": 452,
+        "curve_type": "line",
+        "vertex_ids": [
+          384,
+          379
+        ],
+        "length": 180.0,
+        "face_ids": [
+          456,
+          521
+        ]
+      },
+      {
+        "id": 463,
+        "curve_type": "line",
+        "vertex_ids": [
+          379,
+          387
+        ],
+        "length": 150.0,
+        "face_ids": [
+          471,
+          521
+        ]
+      },
+      {
+        "id": 465,
+        "curve_type": "line",
+        "vertex_ids": [
+          387,
+          388
+        ],
+        "length": 20.0,
+        "face_ids": [
+          471,
+          688
+        ]
+      },
+      {
+        "id": 467,
+        "curve_type": "line",
+        "vertex_ids": [
+          380,
+          388
+        ],
+        "length": 150.0,
+        "face_ids": [
+          471,
+          585
+        ]
+      },
+      {
+        "id": 478,
+        "curve_type": "line",
+        "vertex_ids": [
+          384,
+          392
+        ],
+        "length": 150.0,
+        "face_ids": [
+          521,
+          700
+        ]
+      },
+      {
+        "id": 480,
+        "curve_type": "line",
+        "vertex_ids": [
+          392,
+          387
+        ],
+        "length": 180.0,
+        "face_ids": [
+          521,
+          688
+        ]
+      },
+      {
+        "id": 485,
+        "curve_type": "circle",
+        "vertex_ids": [
+          439,
+          440
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          536
+        ]
+      },
+      {
+        "id": 487,
+        "curve_type": "circle",
+        "vertex_ids": [
+          440,
+          439
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          597
+        ]
+      },
+      {
+        "id": 491,
+        "curve_type": "circle",
+        "vertex_ids": [
+          431,
+          432
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          611
+        ]
+      },
+      {
+        "id": 493,
+        "curve_type": "circle",
+        "vertex_ids": [
+          432,
+          431
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          623
+        ]
+      },
+      {
+        "id": 497,
+        "curve_type": "circle",
+        "vertex_ids": [
+          415,
+          416
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          637
+        ]
+      },
+      {
+        "id": 499,
+        "curve_type": "circle",
+        "vertex_ids": [
+          416,
+          415
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          649
+        ]
+      },
+      {
+        "id": 503,
+        "curve_type": "circle",
+        "vertex_ids": [
+          407,
+          408
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          663
+        ]
+      },
+      {
+        "id": 505,
+        "curve_type": "circle",
+        "vertex_ids": [
+          408,
+          407
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          675
+        ]
+      },
+      {
+        "id": 509,
+        "curve_type": "circle",
+        "vertex_ids": [
+          399,
+          400
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          714
+        ]
+      },
+      {
+        "id": 511,
+        "curve_type": "circle",
+        "vertex_ids": [
+          400,
+          399
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          726
+        ]
+      },
+      {
+        "id": 515,
+        "curve_type": "circle",
+        "vertex_ids": [
+          423,
+          424
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          740
+        ]
+      },
+      {
+        "id": 517,
+        "curve_type": "circle",
+        "vertex_ids": [
+          424,
+          423
+        ],
+        "length": 10.0,
+        "face_ids": [
+          521,
+          752
+        ]
+      },
+      {
+        "id": 527,
+        "curve_type": "circle",
+        "vertex_ids": [
+          435,
+          436
+        ],
+        "length": 10.0,
+        "face_ids": [
+          536,
+          585
+        ]
+      },
+      {
+        "id": 529,
+        "curve_type": "line",
+        "vertex_ids": [
+          435,
+          439
+        ],
+        "length": 20.0,
+        "face_ids": [
+          536,
+          597
+        ]
+      },
+      {
+        "id": 532,
+        "curve_type": "line",
+        "vertex_ids": [
+          436,
+          440
+        ],
+        "length": 20.0,
+        "face_ids": [
+          536,
+          597
+        ]
+      },
+      {
+        "id": 544,
+        "curve_type": "line",
+        "vertex_ids": [
+          388,
+          390
+        ],
+        "length": 180.0,
+        "face_ids": [
+          585,
+          688
+        ]
+      },
+      {
+        "id": 546,
+        "curve_type": "line",
+        "vertex_ids": [
+          382,
+          390
+        ],
+        "length": 150.0,
+        "face_ids": [
+          585,
+          700
+        ]
+      },
+      {
+        "id": 551,
+        "curve_type": "circle",
+        "vertex_ids": [
+          436,
+          435
+        ],
+        "length": 10.0,
+        "face_ids": [
+          585,
+          597
+        ]
+      },
+      {
+        "id": 555,
+        "curve_type": "circle",
+        "vertex_ids": [
+          427,
+          428
+        ],
+        "length": 10.0,
+        "face_ids": [
+          585,
+          611
+        ]
+      },
+      {
+        "id": 557,
+        "curve_type": "circle",
+        "vertex_ids": [
+          428,
+          427
+        ],
+        "length": 10.0,
+        "face_ids": [
+          585,
+          623
+        ]
+      },
+      {
+        "id": 561,
+        "curve_type": "circle",
+        "vertex_ids": [
+          411,
+          412
+        ],
+        "length": 10.0,
+        "face_ids": [
+          585,
+          637
+        ]
+      },
+      {
+        "id": 563,
+        "curve_type": "circle",
+        "vertex_ids": [
+          412,
+          411
+        ],
+        "length": 10.0,
+        "face_ids": [
+          585,
+          649
+        ]
+      },
+      {
+        "id": 567,
+        "curve_type": "circle",
+        "vertex_ids": [
+          403,
+          404
+        ],
+        "length": 10.0,
+        "face_ids": [
+          585,
+          663
+        ]
+      },
+      {
+        "id": 569,
+        "curve_type": "circle",
+        "vertex_ids": [
+          404,
+          403
+        ],
+        "length": 10.0,
+        "face_ids": [
+          585,
+          675
+        ]
+      },
+      {
+        "id": 573,
+        "curve_type": "circle",
+        "vertex_ids": [
+          395,
+          396
+        ],
+        "length": 10.0,
+        "face_ids": [
+          585,
+          714
+        ]
+      },
+      {
+        "id": 575,
+        "curve_type": "circle",
+        "vertex_ids": [
+          396,
+          395
+        ],
+        "length": 10.0,
+        "face_ids": [
+          585,
+          726
+        ]
+      },
+      {
+        "id": 579,
+        "curve_type": "circle",
+        "vertex_ids": [
+          419,
+          420
+        ],
+        "length": 10.0,
+        "face_ids": [
+          585,
+          740
+        ]
+      },
+      {
+        "id": 581,
+        "curve_type": "circle",
+        "vertex_ids": [
+          420,
+          419
+        ],
+        "length": 10.0,
+        "face_ids": [
+          585,
+          752
+        ]
+      },
+      {
+        "id": 604,
+        "curve_type": "line",
+        "vertex_ids": [
+          427,
+          431
+        ],
+        "length": 20.0,
+        "face_ids": [
+          611,
+          623
+        ]
+      },
+      {
+        "id": 607,
+        "curve_type": "line",
+        "vertex_ids": [
+          428,
+          432
+        ],
+        "length": 20.0,
+        "face_ids": [
+          611,
+          623
+        ]
+      },
+      {
+        "id": 630,
+        "curve_type": "line",
+        "vertex_ids": [
+          412,
+          416
+        ],
+        "length": 20.0,
+        "face_ids": [
+          637,
+          649
+        ]
+      },
+      {
+        "id": 633,
+        "curve_type": "line",
+        "vertex_ids": [
+          411,
+          415
+        ],
+        "length": 20.0,
+        "face_ids": [
+          637,
+          649
+        ]
+      },
+      {
+        "id": 656,
+        "curve_type": "line",
+        "vertex_ids": [
+          404,
+          408
+        ],
+        "length": 20.0,
+        "face_ids": [
+          663,
+          675
+        ]
+      },
+      {
+        "id": 659,
+        "curve_type": "line",
+        "vertex_ids": [
+          403,
+          407
+        ],
+        "length": 20.0,
+        "face_ids": [
+          663,
+          675
+        ]
+      },
+      {
+        "id": 683,
+        "curve_type": "line",
+        "vertex_ids": [
+          390,
+          392
+        ],
+        "length": 20.0,
+        "face_ids": [
+          688,
+          700
+        ]
+      },
+      {
+        "id": 707,
+        "curve_type": "line",
+        "vertex_ids": [
+          396,
+          400
+        ],
+        "length": 20.0,
+        "face_ids": [
+          714,
+          726
+        ]
+      },
+      {
+        "id": 710,
+        "curve_type": "line",
+        "vertex_ids": [
+          395,
+          399
+        ],
+        "length": 20.0,
+        "face_ids": [
+          714,
+          726
+        ]
+      },
+      {
+        "id": 733,
+        "curve_type": "line",
+        "vertex_ids": [
+          419,
+          423
+        ],
+        "length": 20.0,
+        "face_ids": [
+          740,
+          752
+        ]
+      },
+      {
+        "id": 736,
+        "curve_type": "line",
+        "vertex_ids": [
+          420,
+          424
+        ],
+        "length": 20.0,
+        "face_ids": [
+          740,
+          752
+        ]
+      },
+      {
+        "id": 1278,
+        "curve_type": "line",
+        "vertex_ids": [
+          1219,
+          1220
+        ],
+        "length": 50.0,
+        "face_ids": [
+          1292,
+          1325
+        ]
+      },
+      {
+        "id": 1280,
+        "curve_type": "line",
+        "vertex_ids": [
+          1220,
+          1222
+        ],
+        "length": 60.0,
+        "face_ids": [
+          1292,
+          1463
+        ]
+      },
+      {
+        "id": 1282,
+        "curve_type": "line",
+        "vertex_ids": [
+          1222,
+          1224
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1292,
+          1444
+        ]
+      },
+      {
+        "id": 1284,
+        "curve_type": "line",
+        "vertex_ids": [
+          1224,
+          1226
+        ],
+        "length": 50.0,
+        "face_ids": [
+          1292,
+          1430
+        ]
+      },
+      {
+        "id": 1286,
+        "curve_type": "line",
+        "vertex_ids": [
+          1226,
+          1228
+        ],
+        "length": 40.0,
+        "face_ids": [
+          1292,
+          1384
+        ]
+      },
+      {
+        "id": 1288,
+        "curve_type": "line",
+        "vertex_ids": [
+          1228,
+          1219
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1292,
+          1490
+        ]
+      },
+      {
+        "id": 1299,
+        "curve_type": "line",
+        "vertex_ids": [
+          1219,
+          1231
+        ],
+        "length": 100.0,
+        "face_ids": [
+          1325,
+          1490
+        ]
+      },
+      {
+        "id": 1301,
+        "curve_type": "line",
+        "vertex_ids": [
+          1231,
+          1232
+        ],
+        "length": 50.0,
+        "face_ids": [
+          1325,
+          1478
+        ]
+      },
+      {
+        "id": 1303,
+        "curve_type": "line",
+        "vertex_ids": [
+          1220,
+          1232
+        ],
+        "length": 100.0,
+        "face_ids": [
+          1325,
+          1463
+        ]
+      },
+      {
+        "id": 1307,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1259,
+          1260
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1325,
+          1340
+        ]
+      },
+      {
+        "id": 1309,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1260,
+          1259
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1325,
+          1353
+        ]
+      },
+      {
+        "id": 1313,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1251,
+          1252
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1325,
+          1398
+        ]
+      },
+      {
+        "id": 1315,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1252,
+          1251
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1325,
+          1410
+        ]
+      },
+      {
+        "id": 1319,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1243,
+          1244
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1325,
+          1530
+        ]
+      },
+      {
+        "id": 1321,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1244,
+          1243
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1325,
+          1542
+        ]
+      },
+      {
+        "id": 1332,
+        "curve_type": "line",
+        "vertex_ids": [
+          1263,
+          1259
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1340,
+          1353
+        ]
+      },
+      {
+        "id": 1334,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1263,
+          1264
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1340,
+          1384
+        ]
+      },
+      {
+        "id": 1336,
+        "curve_type": "line",
+        "vertex_ids": [
+          1264,
+          1260
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1340,
+          1353
+        ]
+      },
+      {
+        "id": 1348,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1264,
+          1263
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1353,
+          1384
+        ]
+      },
+      {
+        "id": 1360,
+        "curve_type": "line",
+        "vertex_ids": [
+          1226,
+          1238
+        ],
+        "length": 100.0,
+        "face_ids": [
+          1384,
+          1430
+        ]
+      },
+      {
+        "id": 1362,
+        "curve_type": "line",
+        "vertex_ids": [
+          1238,
+          1240
+        ],
+        "length": 40.0,
+        "face_ids": [
+          1384,
+          1478
+        ]
+      },
+      {
+        "id": 1364,
+        "curve_type": "line",
+        "vertex_ids": [
+          1228,
+          1240
+        ],
+        "length": 100.0,
+        "face_ids": [
+          1384,
+          1490
+        ]
+      },
+      {
+        "id": 1372,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1255,
+          1256
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1384,
+          1398
+        ]
+      },
+      {
+        "id": 1374,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1256,
+          1255
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1384,
+          1410
+        ]
+      },
+      {
+        "id": 1378,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1247,
+          1248
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1384,
+          1530
+        ]
+      },
+      {
+        "id": 1380,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1248,
+          1247
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1384,
+          1542
+        ]
+      },
+      {
+        "id": 1391,
+        "curve_type": "line",
+        "vertex_ids": [
+          1255,
+          1251
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1398,
+          1410
+        ]
+      },
+      {
+        "id": 1394,
+        "curve_type": "line",
+        "vertex_ids": [
+          1256,
+          1252
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1398,
+          1410
+        ]
+      },
+      {
+        "id": 1417,
+        "curve_type": "line",
+        "vertex_ids": [
+          1224,
+          1236
+        ],
+        "length": 100.0,
+        "face_ids": [
+          1430,
+          1444
+        ]
+      },
+      {
+        "id": 1419,
+        "curve_type": "line",
+        "vertex_ids": [
+          1236,
+          1238
+        ],
+        "length": 50.0,
+        "face_ids": [
+          1430,
+          1478
+        ]
+      },
+      {
+        "id": 1424,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1271,
+          1272
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1430,
+          1504
+        ]
+      },
+      {
+        "id": 1426,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1272,
+          1271
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1430,
+          1516
+        ]
+      },
+      {
+        "id": 1437,
+        "curve_type": "line",
+        "vertex_ids": [
+          1222,
+          1234
+        ],
+        "length": 100.0,
+        "face_ids": [
+          1444,
+          1463
+        ]
+      },
+      {
+        "id": 1439,
+        "curve_type": "line",
+        "vertex_ids": [
+          1234,
+          1236
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1444,
+          1478
+        ]
+      },
+      {
+        "id": 1452,
+        "curve_type": "line",
+        "vertex_ids": [
+          1232,
+          1234
+        ],
+        "length": 60.0,
+        "face_ids": [
+          1463,
+          1478
+        ]
+      },
+      {
+        "id": 1457,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1267,
+          1268
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1463,
+          1504
+        ]
+      },
+      {
+        "id": 1459,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1268,
+          1267
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1463,
+          1516
+        ]
+      },
+      {
+        "id": 1470,
+        "curve_type": "line",
+        "vertex_ids": [
+          1240,
+          1231
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1478,
+          1490
+        ]
+      },
+      {
+        "id": 1497,
+        "curve_type": "line",
+        "vertex_ids": [
+          1271,
+          1267
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1504,
+          1516
+        ]
+      },
+      {
+        "id": 1500,
+        "curve_type": "line",
+        "vertex_ids": [
+          1272,
+          1268
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1504,
+          1516
+        ]
+      },
+      {
+        "id": 1523,
+        "curve_type": "line",
+        "vertex_ids": [
+          1247,
+          1243
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1530,
+          1542
+        ]
+      },
+      {
+        "id": 1526,
+        "curve_type": "line",
+        "vertex_ids": [
+          1248,
+          1244
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1530,
+          1542
+        ]
+      },
+      {
+        "id": 1796,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1777,
+          1785
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1802,
+          1817
+        ]
+      },
+      {
+        "id": 1798,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1777,
+          1785
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1802,
+          1830
+        ]
+      },
+      {
+        "id": 1808,
+        "curve_type": "line",
+        "vertex_ids": [
+          1777,
+          1778
+        ],
+        "length": 37.0,
+        "face_ids": [
+          1817,
+          1830
+        ]
+      },
+      {
+        "id": 1810,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1778,
+          1786
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1817,
+          1846
+        ]
+      },
+      {
+        "id": 1812,
+        "curve_type": "line",
+        "vertex_ids": [
+          1785,
+          1786
+        ],
+        "length": 37.0,
+        "face_ids": [
+          1817,
+          1830
+        ]
+      },
+      {
+        "id": 1826,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1778,
+          1786
+        ],
+        "length": 10.0,
+        "face_ids": [
+          1830,
+          1846
+        ]
+      },
+      {
+        "id": 1836,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1781,
+          1789
+        ],
+        "length": 15.0,
+        "face_ids": [
+          1846,
+          1861
+        ]
+      },
+      {
+        "id": 1838,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1781,
+          1789
+        ],
+        "length": 15.0,
+        "face_ids": [
+          1846,
+          1874
+        ]
+      },
+      {
+        "id": 1852,
+        "curve_type": "line",
+        "vertex_ids": [
+          1781,
+          1782
+        ],
+        "length": 3.0,
+        "face_ids": [
+          1861,
+          1874
+        ]
+      },
+      {
+        "id": 1854,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1782,
+          1790
+        ],
+        "length": 15.0,
+        "face_ids": [
+          1861,
+          1884
+        ]
+      },
+      {
+        "id": 1856,
+        "curve_type": "line",
+        "vertex_ids": [
+          1789,
+          1790
+        ],
+        "length": 3.0,
+        "face_ids": [
+          1861,
+          1874
+        ]
+      },
+      {
+        "id": 1870,
+        "curve_type": "circle",
+        "vertex_ids": [
+          1782,
+          1790
+        ],
+        "length": 15.0,
+        "face_ids": [
+          1874,
+          1884
+        ]
+      },
+      {
+        "id": 2145,
+        "curve_type": "line",
+        "vertex_ids": [
+          2118,
+          2119
+        ],
+        "length": 3.0,
+        "face_ids": [
+          2155,
+          2170
+        ]
+      },
+      {
+        "id": 2147,
+        "curve_type": "line",
+        "vertex_ids": [
+          2119,
+          2121
+        ],
+        "length": 20.0,
+        "face_ids": [
+          2155,
+          2223
+        ]
+      },
+      {
+        "id": 2149,
+        "curve_type": "line",
+        "vertex_ids": [
+          2121,
+          2123
+        ],
+        "length": 3.0,
+        "face_ids": [
+          2155,
+          2204
+        ]
+      },
+      {
+        "id": 2151,
+        "curve_type": "line",
+        "vertex_ids": [
+          2123,
+          2118
+        ],
+        "length": 20.0,
+        "face_ids": [
+          2155,
+          2190
+        ]
+      },
+      {
+        "id": 2162,
+        "curve_type": "line",
+        "vertex_ids": [
+          2118,
+          2126
+        ],
+        "length": 15.0,
+        "face_ids": [
+          2170,
+          2190
+        ]
+      },
+      {
+        "id": 2164,
+        "curve_type": "line",
+        "vertex_ids": [
+          2126,
+          2127
+        ],
+        "length": 3.0,
+        "face_ids": [
+          2170,
+          2235
+        ]
+      },
+      {
+        "id": 2166,
+        "curve_type": "line",
+        "vertex_ids": [
+          2119,
+          2127
+        ],
+        "length": 15.0,
+        "face_ids": [
+          2170,
+          2223
+        ]
+      },
+      {
+        "id": 2177,
+        "curve_type": "line",
+        "vertex_ids": [
+          2123,
+          2131
+        ],
+        "length": 15.0,
+        "face_ids": [
+          2190,
+          2204
+        ]
+      },
+      {
+        "id": 2179,
+        "curve_type": "line",
+        "vertex_ids": [
+          2131,
+          2126
+        ],
+        "length": 20.0,
+        "face_ids": [
+          2190,
+          2235
+        ]
+      },
+      {
+        "id": 2184,
+        "curve_type": "circle",
+        "vertex_ids": [
+          2138,
+          2139
+        ],
+        "length": 10.0,
+        "face_ids": [
+          2190,
+          2249
+        ]
+      },
+      {
+        "id": 2186,
+        "curve_type": "circle",
+        "vertex_ids": [
+          2139,
+          2138
+        ],
+        "length": 10.0,
+        "face_ids": [
+          2190,
+          2261
+        ]
+      },
+      {
+        "id": 2197,
+        "curve_type": "line",
+        "vertex_ids": [
+          2121,
+          2129
+        ],
+        "length": 15.0,
+        "face_ids": [
+          2204,
+          2223
+        ]
+      },
+      {
+        "id": 2199,
+        "curve_type": "line",
+        "vertex_ids": [
+          2129,
+          2131
+        ],
+        "length": 3.0,
+        "face_ids": [
+          2204,
+          2235
+        ]
+      },
+      {
+        "id": 2212,
+        "curve_type": "line",
+        "vertex_ids": [
+          2127,
+          2129
+        ],
+        "length": 20.0,
+        "face_ids": [
+          2223,
+          2235
+        ]
+      },
+      {
+        "id": 2217,
+        "curve_type": "circle",
+        "vertex_ids": [
+          2134,
+          2135
+        ],
+        "length": 10.0,
+        "face_ids": [
+          2223,
+          2249
+        ]
+      },
+      {
+        "id": 2219,
+        "curve_type": "circle",
+        "vertex_ids": [
+          2135,
+          2134
+        ],
+        "length": 10.0,
+        "face_ids": [
+          2223,
+          2261
+        ]
+      },
+      {
+        "id": 2242,
+        "curve_type": "line",
+        "vertex_ids": [
+          2135,
+          2139
+        ],
+        "length": 3.0,
+        "face_ids": [
+          2249,
+          2261
+        ]
+      },
+      {
+        "id": 2245,
+        "curve_type": "line",
+        "vertex_ids": [
+          2134,
+          2138
+        ],
+        "length": 3.0,
+        "face_ids": [
+          2249,
+          2261
+        ]
+      },
+      {
+        "id": 2594,
+        "curve_type": "circle",
+        "vertex_ids": [
+          2583,
+          2584
+        ],
+        "length": 10.0,
+        "face_ids": [
+          2600,
+          2615
+        ]
+      },
+      {
+        "id": 2596,
+        "curve_type": "circle",
+        "vertex_ids": [
+          2584,
+          2583
+        ],
+        "length": 10.0,
+        "face_ids": [
+          2600,
+          2628
+        ]
+      },
+      {
+        "id": 2607,
+        "curve_type": "line",
+        "vertex_ids": [
+          2583,
+          2587
+        ],
+        "length": 200.0,
+        "face_ids": [
+          2615,
+          2628
+        ]
+      },
+      {
+        "id": 2609,
+        "curve_type": "circle",
+        "vertex_ids": [
+          2587,
+          2588
+        ],
+        "length": 10.0,
+        "face_ids": [
+          2615,
+          2638
+        ]
+      },
+      {
+        "id": 2611,
+        "curve_type": "line",
+        "vertex_ids": [
+          2584,
+          2588
+        ],
+        "length": 200.0,
+        "face_ids": [
+          2615,
+          2628
+        ]
+      },
+      {
+        "id": 2623,
+        "curve_type": "circle",
+        "vertex_ids": [
+          2588,
+          2587
+        ],
+        "length": 10.0,
+        "face_ids": [
+          2628,
+          2638
+        ]
+      }
+    ],
+    "faces": [
+      {
+        "id": 456,
+        "surface_type": "plane",
+        "orientation": false,
+        "outer_loop_edges": [
+          446,
+          448,
+          450,
+          452
+        ],
+        "inner_loops": [],
+        "area": 3600.0,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "id": 471,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          446,
+          463,
+          465,
+          467
+        ],
+        "inner_loops": [],
+        "area": 3000.0,
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 521,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          452,
+          478,
+          480,
+          463
+        ],
+        "inner_loops": [
+          [
+            485,
+            487
+          ],
+          [
+            491,
+            493
+          ],
+          [
+            497,
+            499
+          ],
+          [
+            503,
+            505
+          ],
+          [
+            509,
+            511
+          ],
+          [
+            515,
+            517
+          ]
+        ],
+        "area": 27000.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 536,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          527,
+          529,
+          485,
+          532
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 585,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          448,
+          467,
+          544,
+          546
+        ],
+        "inner_loops": [
+          [
+            527,
+            551
+          ],
+          [
+            555,
+            557
+          ],
+          [
+            561,
+            563
+          ],
+          [
+            567,
+            569
+          ],
+          [
+            573,
+            575
+          ],
+          [
+            579,
+            581
+          ]
+        ],
+        "area": 27000.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 597,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          551,
+          532,
+          487,
+          529
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 611,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          555,
+          604,
+          491,
+          607
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 623,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          557,
+          607,
+          493,
+          604
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 637,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          561,
+          630,
+          497,
+          633
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 649,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          563,
+          633,
+          499,
+          630
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 663,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          567,
+          656,
+          503,
+          659
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 675,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          569,
+          659,
+          505,
+          656
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 688,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          465,
+          480,
+          683,
+          544
+        ],
+        "inner_loops": [],
+        "area": 3600.0,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "id": 700,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          450,
+          546,
+          683,
+          478
+        ],
+        "inner_loops": [],
+        "area": 3000.0,
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 714,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          573,
+          707,
+          509,
+          710
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 726,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          575,
+          710,
+          511,
+          707
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 740,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          579,
+          733,
+          515,
+          736
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 752,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          581,
+          736,
+          517,
+          733
+        ],
+        "inner_loops": [],
+        "area": 200.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1292,
+        "surface_type": "plane",
+        "orientation": false,
+        "outer_loop_edges": [
+          1278,
+          1280,
+          1282,
+          1284,
+          1286,
+          1288
+        ],
+        "inner_loops": [],
+        "area": 1000.0,
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1325,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          1278,
+          1299,
+          1301,
+          1303
+        ],
+        "inner_loops": [
+          [
+            1307,
+            1309
+          ],
+          [
+            1313,
+            1315
+          ],
+          [
+            1319,
+            1321
+          ]
+        ],
+        "area": 5000.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1340,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          1307,
+          1332,
+          1334,
+          1336
+        ],
+        "inner_loops": [],
+        "area": 100.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1353,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          1309,
+          1336,
+          1348,
+          1332
+        ],
+        "inner_loops": [],
+        "area": 100.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1384,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          1286,
+          1360,
+          1362,
+          1364
+        ],
+        "inner_loops": [
+          [
+            1334,
+            1348
+          ],
+          [
+            1372,
+            1374
+          ],
+          [
+            1378,
+            1380
+          ]
+        ],
+        "area": 4000.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1398,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          1313,
+          1391,
+          1372,
+          1394
+        ],
+        "inner_loops": [],
+        "area": 100.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1410,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          1315,
+          1394,
+          1374,
+          1391
+        ],
+        "inner_loops": [],
+        "area": 100.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1430,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          1284,
+          1417,
+          1419,
+          1360
+        ],
+        "inner_loops": [
+          [
+            1424,
+            1426
+          ]
+        ],
+        "area": 5000.0,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "id": 1444,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          1282,
+          1437,
+          1439,
+          1417
+        ],
+        "inner_loops": [],
+        "area": 1000.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1463,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          1280,
+          1303,
+          1452,
+          1437
+        ],
+        "inner_loops": [
+          [
+            1457,
+            1459
+          ]
+        ],
+        "area": 6000.0,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      {
+        "id": 1478,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          1301,
+          1470,
+          1362,
+          1419,
+          1439,
+          1452
+        ],
+        "inner_loops": [],
+        "area": 1000.0,
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1490,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          1288,
+          1364,
+          1470,
+          1299
+        ],
+        "inner_loops": [],
+        "area": 1000.0,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "id": 1504,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          1457,
+          1497,
+          1424,
+          1500
+        ],
+        "inner_loops": [],
+        "area": 100.0,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      {
+        "id": 1516,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          1459,
+          1500,
+          1426,
+          1497
+        ],
+        "inner_loops": [],
+        "area": 100.0,
+        "normal": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      {
+        "id": 1530,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          1319,
+          1523,
+          1378,
+          1526
+        ],
+        "inner_loops": [],
+        "area": 100.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1542,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          1321,
+          1526,
+          1380,
+          1523
+        ],
+        "inner_loops": [],
+        "area": 100.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1802,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          1796,
+          1798
+        ],
+        "inner_loops": [],
+        "area": 0.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1817,
+        "surface_type": "cylinder",
+        "orientation": true,
+        "outer_loop_edges": [
+          1808,
+          1810,
+          1812,
+          1796
+        ],
+        "inner_loops": [],
+        "area": 370.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1830,
+        "surface_type": "cylinder",
+        "orientation": true,
+        "outer_loop_edges": [
+          1808,
+          1798,
+          1812,
+          1826
+        ],
+        "inner_loops": [],
+        "area": 370.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1846,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          1836,
+          1838
+        ],
+        "inner_loops": [
+          [
+            1826,
+            1810
+          ]
+        ],
+        "area": 0.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1861,
+        "surface_type": "cylinder",
+        "orientation": true,
+        "outer_loop_edges": [
+          1852,
+          1854,
+          1856,
+          1836
+        ],
+        "inner_loops": [],
+        "area": 45.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1874,
+        "surface_type": "cylinder",
+        "orientation": true,
+        "outer_loop_edges": [
+          1852,
+          1838,
+          1856,
+          1870
+        ],
+        "inner_loops": [],
+        "area": 45.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 1884,
+        "surface_type": "plane",
+        "orientation": false,
+        "outer_loop_edges": [
+          1854,
+          1870
+        ],
+        "inner_loops": [],
+        "area": 0.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2155,
+        "surface_type": "plane",
+        "orientation": false,
+        "outer_loop_edges": [
+          2145,
+          2147,
+          2149,
+          2151
+        ],
+        "inner_loops": [],
+        "area": 60.0,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "id": 2170,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          2145,
+          2162,
+          2164,
+          2166
+        ],
+        "inner_loops": [],
+        "area": 45.0,
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2190,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          2151,
+          2177,
+          2179,
+          2162
+        ],
+        "inner_loops": [
+          [
+            2184,
+            2186
+          ]
+        ],
+        "area": 300.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2204,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          2149,
+          2197,
+          2199,
+          2177
+        ],
+        "inner_loops": [],
+        "area": 45.0,
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2223,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          2147,
+          2166,
+          2212,
+          2197
+        ],
+        "inner_loops": [
+          [
+            2217,
+            2219
+          ]
+        ],
+        "area": 300.0,
+        "normal": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2235,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          2164,
+          2179,
+          2199,
+          2212
+        ],
+        "inner_loops": [],
+        "area": 60.0,
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "id": 2249,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          2217,
+          2242,
+          2184,
+          2245
+        ],
+        "inner_loops": [],
+        "area": 30.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2261,
+        "surface_type": "cylinder",
+        "orientation": false,
+        "outer_loop_edges": [
+          2219,
+          2245,
+          2186,
+          2242
+        ],
+        "inner_loops": [],
+        "area": 30.0,
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2600,
+        "surface_type": "plane",
+        "orientation": false,
+        "outer_loop_edges": [
+          2594,
+          2596
+        ],
+        "inner_loops": [],
+        "area": 0.0,
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2615,
+        "surface_type": "cylinder",
+        "orientation": true,
+        "outer_loop_edges": [
+          2594,
+          2607,
+          2609,
+          2611
+        ],
+        "inner_loops": [],
+        "area": 2000.0,
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2628,
+        "surface_type": "cylinder",
+        "orientation": true,
+        "outer_loop_edges": [
+          2596,
+          2611,
+          2623,
+          2607
+        ],
+        "inner_loops": [],
+        "area": 2000.0,
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": 2638,
+        "surface_type": "plane",
+        "orientation": true,
+        "outer_loop_edges": [
+          2609,
+          2623
+        ],
+        "inner_loops": [],
+        "area": 0.0,
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "shells": [
+      {
+        "id": 753,
+        "kind": "outer",
+        "face_ids": [
+          456,
+          471,
+          521,
+          536,
+          585,
+          597,
+          611,
+          623,
+          637,
+          649,
+          663,
+          675,
+          688,
+          700,
+          714,
+          726,
+          740,
+          752
+        ],
+        "closed": true
+      },
+      {
+        "id": 1543,
+        "kind": "outer",
+        "face_ids": [
+          1292,
+          1325,
+          1340,
+          1353,
+          1384,
+          1398,
+          1410,
+          1430,
+          1444,
+          1463,
+          1478,
+          1490,
+          1504,
+          1516,
+          1530,
+          1542
+        ],
+        "closed": true
+      },
+      {
+        "id": 1885,
+        "kind": "outer",
+        "face_ids": [
+          1802,
+          1817,
+          1830,
+          1846,
+          1861,
+          1874,
+          1884
+        ],
+        "closed": true
+      },
+      {
+        "id": 2262,
+        "kind": "outer",
+        "face_ids": [
+          2155,
+          2170,
+          2190,
+          2204,
+          2223,
+          2235,
+          2249,
+          2261
+        ],
+        "closed": true
+      },
+      {
+        "id": 2639,
+        "kind": "outer",
+        "face_ids": [
+          2600,
+          2615,
+          2628,
+          2638
+        ],
+        "closed": true
+      }
+    ],
+    "healing_log": [],
+    "parse_errors": [],
+    "edge_uses": {
+      "446": [
+        [
+          456,
+          true
+        ],
+        [
+          471,
+          false
+        ]
+      ],
+      "448": [
+        [
+          456,
+          true
+        ],
+        [
+          585,
+          false
+        ]
+      ],
+      "450": [
+        [
+          456,
+          true
+        ],
+        [
+          700,
+          false
+        ]
+      ],
+      "452": [
+        [
+          456,
+          true
+        ],
+        [
+          521,
+          false
+        ]
+      ],
+      "463": [
+        [
+          471,
+          true
+        ],
+        [
+          521,
+          false
+        ]
+      ],
+      "465": [
+        [
+          471,
+          true
+        ],
+        [
+          688,
+          false
+        ]
+      ],
+      "467": [
+        [
+          471,
+          false
+        ],
+        [
+          585,
+          true
+        ]
+      ],
+      "478": [
+        [
+          521,
+          true
+        ],
+        [
+          700,
+          false
+        ]
+      ],
+      "480": [
+        [
+          521,
+          true
+        ],
+        [
+          688,
+          false
+        ]
+      ],
+      "485": [
+        [
+          521,
+          false
+        ],
+        [
+          536,
+          true
+        ]
+      ],
+      "487": [
+        [
+          521,
+          false
+        ],
+        [
+          597,
+          true
+        ]
+      ],
+      "491": [
+        [
+          521,
+          false
+        ],
+        [
+          611,
+          true
+        ]
+      ],
+      "493": [
+        [
+          521,
+          false
+        ],
+        [
+          623,
+          true
+        ]
+      ],
+      "497": [
+        [
+          521,
+          true
+        ],
+        [
+          637,
+          false
+        ]
+      ],
+      "499": [
+        [
+          521,
+          true
+        ],
+        [
+          649,
+          false
+        ]
+      ],
+      "503": [
+        [
+          521,
+          true
+        ],
+        [
+          663,
+          false
+        ]
+      ],
+      "505": [
+        [
+          521,
+          true
+        ],
+        [
+          675,
+          false
+        ]
+      ],
+      "509": [
+        [
+          521,
+          true
+        ],
+        [
+          714,
+          false
+        ]
+      ],
+      "511": [
+        [
+          521,
+          true
+        ],
+        [
+          726,
+          false
+        ]
+      ],
+      "515": [
+        [
+          521,
+          false
+        ],
+        [
+          740,
+          true
+        ]
+      ],
+      "517": [
+        [
+          521,
+          false
+        ],
+        [
+          752,
+          true
+        ]
+      ],
+      "527": [
+        [
+          536,
+          false
+        ],
+        [
+          585,
+          true
+        ]
+      ],
+      "529": [
+        [
+          536,
+          true
+        ],
+        [
+          597,
+          false
+        ]
+      ],
+      "532": [
+        [
+          536,
+          false
+        ],
+        [
+          597,
+          true
+        ]
+      ],
+      "544": [
+        [
+          585,
+          true
+        ],
+        [
+          688,
+          false
+        ]
+      ],
+      "546": [
+        [
+          585,
+          false
+        ],
+        [
+          700,
+          true
+        ]
+      ],
+      "551": [
+        [
+          585,
+          true
+        ],
+        [
+          597,
+          false
+        ]
+      ],
+      "555": [
+        [
+          585,
+          true
+        ],
+        [
+          611,
+          false
+        ]
+      ],
+      "557": [
+        [
+          585,
+          true
+        ],
+        [
+          623,
+          false
+        ]
+      ],
+      "561": [
+        [
+          585,
+          false
+        ],
+        [
+          637,
+          true
+        ]
+      ],
+      "563": [
+        [
+          585,
+          false
+        ],
+        [
+          649,
+          true
+        ]
+      ],
+      "567": [
+        [
+          585,
+          false
+        ],
+        [
+          663,
+          true
+        ]
+      ],
+      "569": [
+        [
+          585,
+          false
+        ],
+        [
+          675,
+          true
+        ]
+      ],
+      "573": [
+        [
+          585,
+          false
+        ],
+        [
+          714,
+          true
+        ]
+      ],
+      "575": [
+        [
+          585,
+          false
+        ],
+        [
+          726,
+          true
+        ]
+      ],
+      "579": [
+        [
+          585,
+          true
+        ],
+        [
+          740,
+          false
+        ]
+      ],
+      "581": [
+        [
+          585,
+          true
+        ],
+        [
+          752,
+          false
+        ]
+      ],
+      "604": [
+        [
+          611,
+          true
+        ],
+        [
+          623,
+          false
+        ]
+      ],
+      "607": [
+        [
+          611,
+          false
+        ],
+        [
+          623,
+          true
+        ]
+      ],
+      "630": [
+        [
+          637,
+          true
+        ],
+        [
+          649,
+          false
+        ]
+      ],
+      "633": [
+        [
+          637,
+          false
+        ],
+        [
+          649,
+          true
+        ]
+      ],
+      "656": [
+        [
+          663,
+          true
+        ],
+        [
+          675,
+          false
+        ]
+      ],
+      "659": [
+        [
+          663,
+          false
+        ],
+        [
+          675,
+          true
+        ]
+      ],
+      "683": [
+        [
+          688,
+          false
+        ],
+        [
+          700,
+          true
+        ]
+      ],
+      "707": [
+        [
+          714,
+          true
+        ],
+        [
+          726,
+          false
+        ]
+      ],
+      "710": [
+        [
+          714,
+          false
+        ],
+        [
+          726,
+          true
+        ]
+      ],
+      "733": [
+        [
+          740,
+          true
+        ],
+        [
+          752,
+          false
+        ]
+      ],
+      "736": [
+        [
+          740,
+          false
+        ],
+        [
+          752,
+          true
+        ]
+      ],
+      "1278": [
+        [
+          1292,
+          true
+        ],
+        [
+          1325,
+          false
+        ]
+      ],
+      "1280": [
+        [
+          1292,
+          true
+        ],
+        [
+          1463,
+          false
+        ]
+      ],
+      "1282": [
+        [
+          1292,
+          true
+        ],
+        [
+          1444,
+          false
+        ]
+      ],
+      "1284": [
+        [
+          1292,
+          true
+        ],
+        [
+          1430,
+          false
+        ]
+      ],
+      "1286": [
+        [
+          1292,
+          true
+        ],
+        [
+          1384,
+          false
+        ]
+      ],
+      "1288": [
+        [
+          1292,
+          true
+        ],
+        [
+          1490,
+          false
+        ]
+      ],
+      "1299": [
+        [
+          1325,
+          true
+        ],
+        [
+          1490,
+          false
+        ]
+      ],
+      "1301": [
+        [
+          1325,
+          true
+        ],
+        [
+          1478,
+          false
+        ]
+      ],
+      "1303": [
+        [
+          1325,
+          false
+        ],
+        [
+          1463,
+          true
+        ]
+      ],
+      "1307": [
+        [
+          1325,
+          true
+        ],
+        [
+          1340,
+          false
+        ]
+      ],
+      "1309": [
+        [
+          1325,
+          true
+        ],
+        [
+          1353,
+          false
+        ]
+      ],
+      "1313": [
+        [
+          1325,
+          true
+        ],
+        [
+          1398,
+          false
+        ]
+      ],
+      "1315": [
+        [
+          1325,
+          true
+        ],
+        [
+          1410,
+          false
+        ]
+      ],
+      "1319": [
+        [
+          1325,
+          true
+        ],
+        [
+          1530,
+          false
+        ]
+      ],
+      "1321": [
+        [
+          1325,
+          true
+        ],
+        [
+          1542,
+          false
+        ]
+      ],
+      "1332": [
+        [
+          1340,
+          false
+        ],
+        [
+          1353,
+          true
+        ]
+      ],
+      "1334": [
+        [
+          1340,
+          true
+        ],
+        [
+          1384,
+          false
+        ]
+      ],
+      "1336": [
+        [
+          1340,
+          true
+        ],
+        [
+          1353,
+          false
+        ]
+      ],
+      "1348": [
+        [
+          1353,
+          true
+        ],
+        [
+          1384,
+          false
+        ]
+      ],
+      "1360": [
+        [
+          1384,
+          true
+        ],
+        [
+          1430,
+          false
+        ]
+      ],
+      "1362": [
+        [
+          1384,
+          true
+        ],
+        [
+          1478,
+          false
+        ]
+      ],
+      "1364": [
+        [
+          1384,
+          false
+        ],
+        [
+          1490,
+          true
+        ]
+      ],
+      "1372": [
+        [
+          1384,
+          false
+        ],
+        [
+          1398,
+          true
+        ]
+      ],
+      "1374": [
+        [
+          1384,
+          false
+        ],
+        [
+          1410,
+          true
+        ]
+      ],
+      "1378": [
+        [
+          1384,
+          false
+        ],
+        [
+          1530,
+          true
+        ]
+      ],
+      "1380": [
+        [
+          1384,
+          false
+        ],
+        [
+          1542,
+          true
+        ]
+      ],
+      "1391": [
+        [
+          1398,
+          false
+        ],
+        [
+          1410,
+          true
+        ]
+      ],
+      "1394": [
+        [
+          1398,
+          true
+        ],
+        [
+          1410,
+          false
+        ]
+      ],
+      "1417": [
+        [
+          1430,
+          true
+        ],
+        [
+          1444,
+          false
+        ]
+      ],
+      "1419": [
+        [
+          1430,
+          true
+        ],
+        [
+          1478,
+          false
+        ]
+      ],
+      "1424": [
+        [
+          1430,
+          false
+        ],
+        [
+          1504,
+          true
+        ]
+      ],
+      "1426": [
+        [
+          1430,
+          false
+        ],
+        [
+          1516,
+          true
+        ]
+      ],
+      "1437": [
+        [
+          1444,
+          true
+        ],
+        [
+          1463,
+          false
+        ]
+      ],
+      "1439": [
+        [
+          1444,
+          true
+        ],
+        [
+          1478,
+          false
+        ]
+      ],
+      "1452": [
+        [
+          1463,
+          true
+        ],
+        [
+          1478,
+          false
+        ]
+      ],
+      "1457": [
+        [
+          1463,
+          true
+        ],
+        [
+          1504,
+          false
+        ]
+      ],
+      "1459": [
+        [
+          1463,
+          true
+        ],
+        [
+          1516,
+          false
+        ]
+      ],
+      "1470": [
+        [
+          1478,
+          false
+        ],
+        [
+          1490,
+          true
+        ]
+      ],
+      "1497": [
+        [
+          1504,
+          false
+        ],
+        [
+          1516,
+          true
+        ]
+      ],
+      "1500": [
+        [
+          1504,
+          true
+        ],
+        [
+          1516,
+          false
+        ]
+      ],
+      "1523": [
+        [
+          1530,
+          false
+        ],
+        [
+          1542,
+          true
+        ]
+      ],
+      "1526": [
+        [
+          1530,
+          true
+        ],
+        [
+          1542,
+          false
+        ]
+      ],
+      "1796": [
+        [
+          1802,
+          true
+        ],
+        [
+          1817,
+          false
+        ]
+      ],
+      "1798": [
+        [
+          1802,
+          false
+        ],
+        [
+          1830,
+          true
+        ]
+      ],
+      "1808": [
+        [
+          1817,
+          true
+        ],
+        [
+          1830,
+          false
+        ]
+      ],
+      "1810": [
+        [
+          1817,
+          true
+        ],
+        [
+          1846,
+          false
+        ]
+      ],
+      "1812": [
+        [
+          1817,
+          false
+        ],
+        [
+          1830,
+          true
+        ]
+      ],
+      "1826": [
+        [
+          1830,
+          false
+        ],
+        [
+          1846,
+          true
+        ]
+      ],
+      "1836": [
+        [
+          1846,
+          true
+        ],
+        [
+          1861,
+          false
+        ]
+      ],
+      "1838": [
+        [
+          1846,
+          false
+        ],
+        [
+          1874,
+          true
+        ]
+      ],
+      "1852": [
+        [
+          1861,
+          true
+        ],
+        [
+          1874,
+          false
+        ]
+      ],
+      "1854": [
+        [
+          1861,
+          true
+        ],
+        [
+          1884,
+          false
+        ]
+      ],
+      "1856": [
+        [
+          1861,
+          false
+        ],
+        [
+          1874,
+          true
+        ]
+      ],
+      "1870": [
+        [
+          1874,
+          false
+        ],
+        [
+          1884,
+          true
+        ]
+      ],
+      "2145": [
+        [
+          2155,
+          true
+        ],
+        [
+          2170,
+          false
+        ]
+      ],
+      "2147": [
+        [
+          2155,
+          true
+        ],
+        [
+          2223,
+          false
+        ]
+      ],
+      "2149": [
+        [
+          2155,
+          true
+        ],
+        [
+          2204,
+          false
+        ]
+      ],
+      "2151": [
+        [
+          2155,
+          true
+        ],
+        [
+          2190,
+          false
+        ]
+      ],
+      "2162": [
+        [
+          2170,
+          true
+        ],
+        [
+          2190,
+          false
+        ]
+      ],
+      "2164": [
+        [
+          2170,
+          true
+        ],
+        [
+          2235,
+          false
+        ]
+      ],
+      "2166": [
+        [
+          2170,
+          false
+        ],
+        [
+          2223,
+          true
+        ]
+      ],
+      "2177": [
+        [
+          2190,
+          true
+        ],
+        [
+          2204,
+          false
+        ]
+      ],
+      "2179": [
+        [
+          2190,
+          true
+        ],
+        [
+          2235,
+          false
+        ]
+      ],
+      "2184": [
+        [
+          2190,
+          true
+        ],
+        [
+          2249,
+          false
+        ]
+      ],
+      "2186": [
+        [
+          2190,
+          true
+        ],
+        [
+          2261,
+          false
+        ]
+      ],
+      "2197": [
+        [
+          2204,
+          true
+        ],
+        [
+          2223,
+          false
+        ]
+      ],
+      "2199": [
+        [
+          2204,
+          true
+        ],
+        [
+          2235,
+          false
+        ]
+      ],
+      "2212": [
+        [
+          2223,
+          true
+        ],
+        [
+          2235,
+          false
+        ]
+      ],
+      "2217": [
+        [
+          2223,
+          false
+        ],
+        [
+          2249,
+          true
+        ]
+      ],
+      "2219": [
+        [
+          2223,
+          false
+        ],
+        [
+          2261,
+          true
+        ]
+      ],
+      "2242": [
+        [
+          2249,
+          true
+        ],
+        [
+          2261,
+          false
+        ]
+      ],
+      "2245": [
+        [
+          2249,
+          false
+        ],
+        [
+          2261,
+          true
+        ]
+      ],
+      "2594": [
+        [
+          2600,
+          true
+        ],
+        [
+          2615,
+          false
+        ]
+      ],
+      "2596": [
+        [
+          2600,
+          true
+        ],
+        [
+          2628,
+          false
+        ]
+      ],
+      "2607": [
+        [
+          2615,
+          true
+        ],
+        [
+          2628,
+          false
+        ]
+      ],
+      "2609": [
+        [
+          2615,
+          true
+        ],
+        [
+          2638,
+          false
+        ]
+      ],
+      "2611": [
+        [
+          2615,
+          false
+        ],
+        [
+          2628,
+          true
+        ]
+      ],
+      "2623": [
+        [
+          2628,
+          true
+        ],
+        [
+          2638,
+          false
+        ]
+      ]
+    },
+    "counts": {
+      "V": 84,
+      "E": 126,
+      "F": 53,
+      "S": 5,
+      "R": 23
+    }
+  },
+  "validity_a": {
+    "kernel_name": "kernel_a_tolerant",
+    "kernel_version": "tolerant-healing/1.0 (tol=1e-4)",
+    "source_file": "/Users/yashitapuri/brep-sentinel/api_storage/single/ca95aec862c9/as1_pe_203.stp",
+    "file_sha256": "be1254354f6929a08ce1c8049d4a0a2f4406da4ea283fc4247d009c81976641c",
+    "counts": {
+      "V": 84,
+      "E": 126,
+      "F": 53,
+      "S": 5,
+      "R": 23
+    },
+    "invariants": {
+      "euler_poincare": {
+        "holds": true,
+        "per_shell": [
+          {
+            "shell_id": 753,
+            "kind": "outer",
+            "V": 32,
+            "E": 48,
+            "F": 18,
+            "R": 12,
+            "chi": -10,
+            "even": true,
+            "genus_implied": 6,
+            "ok": true
+          },
+          {
+            "shell_id": 1543,
+            "kind": "outer",
+            "V": 28,
+            "E": 42,
+            "F": 16,
+            "R": 8,
+            "chi": -6,
+            "even": true,
+            "genus_implied": 4,
+            "ok": true
+          },
+          {
+            "shell_id": 1885,
+            "kind": "outer",
+            "V": 8,
+            "E": 12,
+            "F": 7,
+            "R": 1,
+            "chi": 2,
+            "even": true,
+            "genus_implied": 0,
+            "ok": true
+          },
+          {
+            "shell_id": 2262,
+            "kind": "outer",
+            "V": 12,
+            "E": 18,
+            "F": 8,
+            "R": 2,
+            "chi": 0,
+            "even": true,
+            "genus_implied": 1,
+            "ok": true
+          },
+          {
+            "shell_id": 2639,
+            "kind": "outer",
+            "V": 4,
+            "E": 6,
+            "F": 4,
+            "R": 0,
+            "chi": 2,
+            "even": true,
+            "genus_implied": 0,
+            "ok": true
+          }
+        ],
+        "detail": "V-E+F-R=2(S-H) per shell"
+      },
+      "shell_closure": {
+        "holds": true,
+        "open_shells": [],
+        "detail": "all shells watertight"
+      },
+      "orientation_coherence": {
+        "holds": true,
+        "incoherent_edges": [],
+        "detail": "shared edges oppositely oriented"
+      },
+      "degeneracy": {
+        "holds": true,
+        "zero_length_edges": [],
+        "zero_area_faces": [],
+        "boundary_edges": [],
+        "nonmanifold_edges": [],
+        "detail": "no degenerate entities"
+      }
+    },
+    "failures": [],
+    "valid": true,
+    "parse_errors": []
+  },
+  "validity_b": {
+    "kernel_name": "kernel_b_strict",
+    "kernel_version": "strict-literal/1.0 (tol=0)",
+    "source_file": "/Users/yashitapuri/brep-sentinel/api_storage/single/ca95aec862c9/as1_pe_203.stp",
+    "file_sha256": "be1254354f6929a08ce1c8049d4a0a2f4406da4ea283fc4247d009c81976641c",
+    "counts": {
+      "V": 84,
+      "E": 126,
+      "F": 53,
+      "S": 5,
+      "R": 23
+    },
+    "invariants": {
+      "euler_poincare": {
+        "holds": true,
+        "per_shell": [
+          {
+            "shell_id": 753,
+            "kind": "outer",
+            "V": 32,
+            "E": 48,
+            "F": 18,
+            "R": 12,
+            "chi": -10,
+            "even": true,
+            "genus_implied": 6,
+            "ok": true
+          },
+          {
+            "shell_id": 1543,
+            "kind": "outer",
+            "V": 28,
+            "E": 42,
+            "F": 16,
+            "R": 8,
+            "chi": -6,
+            "even": true,
+            "genus_implied": 4,
+            "ok": true
+          },
+          {
+            "shell_id": 1885,
+            "kind": "outer",
+            "V": 8,
+            "E": 12,
+            "F": 7,
+            "R": 1,
+            "chi": 2,
+            "even": true,
+            "genus_implied": 0,
+            "ok": true
+          },
+          {
+            "shell_id": 2262,
+            "kind": "outer",
+            "V": 12,
+            "E": 18,
+            "F": 8,
+            "R": 2,
+            "chi": 0,
+            "even": true,
+            "genus_implied": 1,
+            "ok": true
+          },
+          {
+            "shell_id": 2639,
+            "kind": "outer",
+            "V": 4,
+            "E": 6,
+            "F": 4,
+            "R": 0,
+            "chi": 2,
+            "even": true,
+            "genus_implied": 0,
+            "ok": true
+          }
+        ],
+        "detail": "V-E+F-R=2(S-H) per shell"
+      },
+      "shell_closure": {
+        "holds": true,
+        "open_shells": [],
+        "detail": "all shells watertight"
+      },
+      "orientation_coherence": {
+        "holds": true,
+        "incoherent_edges": [],
+        "detail": "shared edges oppositely oriented"
+      },
+      "degeneracy": {
+        "holds": true,
+        "zero_length_edges": [],
+        "zero_area_faces": [],
+        "boundary_edges": [],
+        "nonmanifold_edges": [],
+        "detail": "no degenerate entities"
+      }
+    },
+    "failures": [],
+    "valid": true,
+    "parse_errors": []
+  },
+  "advisory": {
+    "any": true,
+    "flags": [
+      {
+        "type": "enclosed_void",
+        "detail": "solid has 5 shells; void shells=[] -- unexpected internal cavity"
+      },
+      {
+        "type": "small_feature",
+        "detail": "min edge #1852 length 3.000 = 0.8% of bbox diagonal (possible notch/sliver / stress concentrator)"
+      },
+      {
+        "type": "thin_wall",
+        "detail": "faces (585, 2190) separated by 3.000 = 0.8% of bbox diagonal (thin wall)"
+      }
+    ],
+    "bbox_diag": 380.1316
+  }
+}

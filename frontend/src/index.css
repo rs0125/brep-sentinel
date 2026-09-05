@@ -1,0 +1,338 @@
+/* ---------------------------------------------------------------------
+   brep-sentinel design tokens
+
+   Cybersecurity instrument, dark-mode-first: near-black ground, an
+   ambient green glow reads as "system secure," red is reserved entirely
+   for a detected threat -- the same red/green split a SOC dashboard or a
+   security product's marketing site uses, so the palette itself carries
+   meaning rather than just decorating the UI. Inter carries the voice:
+   humanist, formal, legible at small sizes -- IBM Plex Mono is kept only
+   for genuinely technical readouts (hashes, run ids, raw counts).
+   ------------------------------------------------------------------- */
+:root {
+  /* surface */
+  --bg: #060a08;
+  --panel: #0d1512;
+  --panel-raised: #121d18;
+  --line: rgba(255, 255, 255, 0.08);
+  --line-strong: rgba(255, 255, 255, 0.16);
+
+  /* text */
+  --ink: #eef4f1;
+  --ink-dim: #9fb3ab;
+  --ink-faint: #5f7369;
+
+  /* structural accent = "secure" state, doubles as the primary action color */
+  --accent: #2ee66b;
+  --accent-glow: #39ff6a;
+  --accent-neon: #39ff14;
+  --accent-dim: rgba(46, 230, 107, 0.16);
+
+  /* reserved for an actual detected threat, never used decoratively */
+  --danger: #ff3b3b;
+  --danger-glow: #ff2954;
+  --danger-neon: #ff1744;
+  --danger-dim: rgba(255, 59, 59, 0.16);
+
+  /* verdicts */
+  --clean: #2ee66b;
+  --clean-bg: rgba(46, 230, 107, 0.15);
+  --flagged: #ffb020;
+  --flagged-bg: rgba(255, 176, 32, 0.15);
+  --malformed: #ff3b3b;
+  --malformed-bg: rgba(255, 59, 59, 0.15);
+  --suspect: #e93de9;
+  --suspect-bg: rgba(233, 61, 233, 0.15);
+
+  --font-display: "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --radius: 12px;
+  --radius-pill: 999px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 14.5px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  margin: 0 0 6px;
+  color: var(--ink);
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: 800;
+}
+h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 13px;
+  color: var(--ink-dim);
+  font-weight: 500;
+}
+
+p {
+  color: var(--ink-dim);
+}
+
+a {
+  color: var(--accent-glow);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  font-family: var(--font-body);
+  font-size: 13.5px;
+  font-weight: 600;
+  background: var(--panel-raised);
+  color: var(--ink);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-pill);
+  padding: 10px 20px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
+}
+button:hover:not(:disabled) {
+  border-color: var(--accent);
+}
+button:active:not(:disabled) {
+  transform: scale(0.98);
+}
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+button.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #04180c;
+  box-shadow: 0 0 0 1px rgba(46, 230, 107, 0.5), 0 0 20px rgba(57, 255, 20, 0.45),
+    0 10px 30px -8px rgba(57, 255, 20, 0.6);
+}
+button.primary:hover:not(:disabled) {
+  box-shadow: 0 0 0 1px rgba(46, 230, 107, 0.7), 0 0 28px rgba(57, 255, 20, 0.65),
+    0 12px 36px -6px rgba(57, 255, 20, 0.8);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+}
+th,
+td {
+  text-align: left;
+  padding: 11px 12px;
+  border-bottom: 1px solid var(--line);
+}
+th {
+  color: var(--ink-faint);
+  font-weight: 600;
+  font-size: 11.5px;
+  text-transform: none;
+  letter-spacing: 0.01em;
+}
+tbody tr {
+  transition: background 0.1s ease;
+}
+tbody tr.clickable {
+  cursor: pointer;
+}
+tbody tr.clickable:hover {
+  background: var(--panel-raised);
+}
+
+code,
+pre {
+  font-family: var(--font-mono);
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 20px;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.muted {
+  color: var(--ink-dim);
+}
+
+.faint {
+  color: var(--ink-faint);
+  font-size: 12px;
+  font-family: var(--font-mono);
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border-radius: var(--radius-pill);
+  padding: 6px 14px;
+  font-size: 12.5px;
+  font-weight: 600;
+  border: 1px solid var(--line-strong);
+  background: var(--panel-raised);
+  color: var(--ink-dim);
+}
+.pill.pill-safe {
+  color: var(--accent-neon);
+  border-color: rgba(46, 230, 107, 0.5);
+  background: var(--accent-dim);
+  box-shadow: 0 0 16px -4px rgba(57, 255, 20, 0.5);
+}
+.pill.pill-danger {
+  color: var(--danger-neon);
+  border-color: rgba(255, 59, 59, 0.5);
+  background: var(--danger-dim);
+  box-shadow: 0 0 16px -4px rgba(255, 23, 68, 0.5);
+}
+
+/* ---- ambient / neon accents ------------------------------------------- */
+.ambient-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(700px 500px at 12% -8%, rgba(46, 230, 107, 0.16), transparent 60%),
+    radial-gradient(600px 460px at 105% 8%, rgba(233, 61, 233, 0.08), transparent 60%),
+    radial-gradient(900px 700px at 60% 115%, rgba(46, 230, 107, 0.08), transparent 60%);
+}
+
+.glow-text {
+  text-shadow: 0 0 24px rgba(57, 255, 20, 0.45);
+}
+.glow-text-danger {
+  text-shadow: 0 0 24px rgba(255, 23, 68, 0.45);
+}
+
+.panel-neon {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius);
+  padding: 20px;
+  background: linear-gradient(180deg, rgba(46, 230, 107, 0.06), transparent 40%), var(--panel);
+  border: 1px solid rgba(46, 230, 107, 0.25);
+}
+.panel-neon::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(46, 230, 107, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(46, 230, 107, 0.06) 1px, transparent 1px);
+  background-size: 34px 34px;
+  mask-image: radial-gradient(circle at 30% 40%, black, transparent 75%);
+  pointer-events: none;
+}
+
+@keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(57, 255, 20, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 10px rgba(57, 255, 20, 0);
+  }
+}
+.pulse-dot {
+  animation: pulse-ring 1.8s ease-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+.markdown-body {
+  max-width: 760px;
+  font-size: 13.5px;
+}
+.markdown-body h1 {
+  font-size: 20px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 10px;
+}
+.markdown-body h2 {
+  margin-top: 28px;
+  font-size: 15px;
+}
+.markdown-body h3 {
+  color: var(--ink);
+  margin-top: 18px;
+}
+.markdown-body p,
+.markdown-body li {
+  color: var(--ink-dim);
+}
+.markdown-body code {
+  background: var(--panel-raised);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  padding: 1px 5px;
+  color: var(--ink);
+}
+.markdown-body blockquote {
+  margin: 6px 0;
+  padding: 4px 12px;
+  border-left: 2px solid var(--line-strong);
+  color: var(--ink-faint);
+  font-size: 12.5px;
+}
+.markdown-body table {
+  margin: 10px 0 18px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

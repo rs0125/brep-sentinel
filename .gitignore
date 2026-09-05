@@ -8,3 +8,4 @@ venv/
 brep_sentinel_out/
 real_corpus/*.stp
 real_corpus/*.step
+frontend/node_modules/
